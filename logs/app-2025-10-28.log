@@ -1,0 +1,1631 @@
+2025-10-28 16:27:29 [INFO]: ========================================
+2025-10-28 16:27:29 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 16:27:29 [INFO]: ========================================
+2025-10-28 16:27:29 [INFO]: Environment: development
+2025-10-28 16:27:29 [INFO]: Location: Bangalore, India
+2025-10-28 16:27:29 [INFO]: Search Query: restaurants
+2025-10-28 16:27:29 [INFO]: ========================================
+2025-10-28 16:27:29 [ERROR]: TypeError: Cannot read properties of null (reading 'prepare')
+    at getStats (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/utils/database.js:318:19)
+    at AutomationApp.healthCheck (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:67:21)
+    at AutomationApp.start (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:139:18)
+    at file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:198:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:651:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+2025-10-28 16:27:29 [WARN]: Google Sheets credentials not found. Skipping sheets integration.
+2025-10-28 16:27:29 [INFO]: Setting up scheduled jobs...
+2025-10-28 16:27:29 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 16:27:29 [INFO]: Scheduled health check: every hour
+2025-10-28 16:27:29 [INFO]: Application started successfully
+2025-10-28 16:27:29 [INFO]: Waiting for scheduled jobs...
+2025-10-28 16:27:29 [INFO]: Database initialized successfully
+2025-10-28 16:33:38 [INFO]: ========================================
+2025-10-28 16:33:38 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 16:33:38 [INFO]: ========================================
+2025-10-28 16:33:38 [INFO]: Environment: development
+2025-10-28 16:33:38 [INFO]: Location: Bangalore, India
+2025-10-28 16:33:38 [INFO]: Search Query: restaurants
+2025-10-28 16:33:38 [INFO]: ========================================
+2025-10-28 16:33:38 [INFO]: Database initialized successfully
+2025-10-28 16:33:38 [INFO]: Database ready
+2025-10-28 16:33:38 [INFO]: Health check:
+2025-10-28 16:33:38 [WARN]: Google Sheets credentials not found. Skipping sheets integration.
+2025-10-28 16:33:38 [INFO]: Setting up scheduled jobs...
+2025-10-28 16:33:38 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 16:33:38 [INFO]: Scheduled health check: every hour
+2025-10-28 16:33:38 [INFO]: Application started successfully
+2025-10-28 16:33:38 [INFO]: Waiting for scheduled jobs...
+2025-10-28 16:33:38 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 16:34:06 [INFO]: Manual scraping triggered via dashboard
+2025-10-28 16:34:06 [INFO]: Launching browser...
+2025-10-28 16:34:09 [INFO]: Browser initialized successfully
+2025-10-28 16:34:09 [INFO]: Searching for: restaurants in Bangalore, India
+2025-10-28 16:34:18 [INFO]: Search loaded, starting to extract businesses
+2025-10-28 16:34:18 [INFO]: Scrolling through results...
+2025-10-28 16:34:21 [INFO]: Scroll attempt 1/10
+2025-10-28 16:34:24 [INFO]: Reached end of results
+2025-10-28 16:34:24 [INFO]: Extracting business data...
+2025-10-28 16:34:24 [INFO]: Extracted 0 businesses
+2025-10-28 16:34:24 [INFO]: Processing 0 businesses for detailed info...
+2025-10-28 16:34:24 [INFO]: Browser closed
+2025-10-28 16:34:24 [INFO]: Processing 0 businesses...
+2025-10-28 16:34:24 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 16:34:24 [INFO]: Manual scraping completed
+2025-10-28 16:35:35 [INFO]: Manual scraping triggered via dashboard
+2025-10-28 16:35:35 [INFO]: Launching browser...
+2025-10-28 16:35:36 [INFO]: Browser initialized successfully
+2025-10-28 16:35:36 [INFO]: Searching for: restaurants in Bangalore, India
+2025-10-28 16:35:47 [INFO]: Search loaded, starting to extract businesses
+2025-10-28 16:35:47 [INFO]: Scrolling through results...
+2025-10-28 16:35:51 [INFO]: Scroll attempt 1/10
+2025-10-28 16:35:54 [INFO]: Reached end of results
+2025-10-28 16:35:54 [INFO]: Extracting business data...
+2025-10-28 16:35:54 [INFO]: Extracted 0 businesses
+2025-10-28 16:35:54 [INFO]: Processing 0 businesses for detailed info...
+2025-10-28 16:35:54 [INFO]: Browser closed
+2025-10-28 16:35:54 [INFO]: Processing 0 businesses...
+2025-10-28 16:35:54 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 16:35:54 [INFO]: Manual scraping completed
+2025-10-28 17:00:53 [INFO]: ========================================
+2025-10-28 17:00:53 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:00:53 [INFO]: ========================================
+2025-10-28 17:00:53 [INFO]: Environment: development
+2025-10-28 17:00:53 [INFO]: Location: Bangalore, India
+2025-10-28 17:00:53 [INFO]: Search Query: businesses near me
+2025-10-28 17:00:53 [INFO]: ========================================
+2025-10-28 17:00:53 [INFO]: Database initialized successfully
+2025-10-28 17:00:53 [INFO]: Database ready
+2025-10-28 17:00:53 [INFO]: Health check:
+2025-10-28 17:00:53 [INFO]: Google Sheets integration initialized
+2025-10-28 17:00:53 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:00:53 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:00:53 [INFO]: Scheduled health check: every hour
+2025-10-28 17:00:53 [INFO]: Application started successfully
+2025-10-28 17:00:53 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:00:53 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:01:08 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:01:08 [INFO]: Using real Google Maps scraping
+2025-10-28 17:01:08 [INFO]: Launching browser...
+2025-10-28 17:01:09 [INFO]: Browser initialized successfully
+2025-10-28 17:01:09 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:01:16 [INFO]: Results panel loaded successfully
+2025-10-28 17:01:16 [INFO]: Search loaded, starting to extract businesses
+2025-10-28 17:01:20 [INFO]: Scrolling through results...
+2025-10-28 17:01:23 [INFO]: Scroll attempt 1/5
+2025-10-28 17:01:25 [INFO]: Reached end of results
+2025-10-28 17:01:28 [INFO]: Extracting business data...
+2025-10-28 17:01:28 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:01:28 [INFO]: Extracted 0 businesses
+2025-10-28 17:01:28 [WARN]: No businesses extracted. Page might need more time to load or selectors need updating.
+2025-10-28 17:01:28 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 17:01:29 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 17:01:29 [INFO]: Returning 0 businesses
+2025-10-28 17:01:29 [INFO]: Browser closed
+2025-10-28 17:01:29 [INFO]: Processing 0 businesses...
+2025-10-28 17:01:29 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 17:01:29 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 17:05:27 [INFO]: ========================================
+2025-10-28 17:05:27 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:05:27 [INFO]: ========================================
+2025-10-28 17:05:27 [INFO]: Environment: production
+2025-10-28 17:05:27 [INFO]: Location: Bangalore, India
+2025-10-28 17:05:27 [INFO]: Search Query: businesses near me
+2025-10-28 17:05:27 [INFO]: ========================================
+2025-10-28 17:05:27 [INFO]: Database initialized successfully
+2025-10-28 17:05:27 [INFO]: Database ready
+2025-10-28 17:05:27 [INFO]: Health check:
+2025-10-28 17:05:27 [INFO]: Google Sheets integration initialized
+2025-10-28 17:05:27 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:05:27 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:05:27 [INFO]: Scheduled health check: every hour
+2025-10-28 17:05:27 [INFO]: Application started successfully
+2025-10-28 17:05:27 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:05:27 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:05:34 [INFO]: Generating 20 test businesses
+2025-10-28 17:05:34 [INFO]: Generating 20 test businesses for Bangalore
+2025-10-28 17:05:34 [INFO]: Generated 20 test businesses
+2025-10-28 17:05:34 [INFO]: Processing 20 businesses...
+2025-10-28 17:05:34 [INFO]: Qualified lead: Blue Moon Cafe (Score: 100)
+2025-10-28 17:05:34 [INFO]: Qualified lead: The Golden Bookstore (Score: 93)
+2025-10-28 17:05:34 [INFO]: Qualified lead: The Golden Retail Store (Score: 88)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Blue Moon Gym (Score: 95)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Urban Retail Store (Score: 88)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Elite Cafe (Score: 95)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Classic Cafe (Score: 90)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Fusion Beauty Salon (Score: 90)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Premium Beauty Salon (Score: 95)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Sunrise Pharmacy (Score: 85)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Premium Grocery Store (Score: 83)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Fusion Pharmacy (Score: 85)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Elite Bookstore (Score: 93)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Modern Pet Store (Score: 88)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Elite Cafe (Score: 90)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Royal Bakery (Score: 95)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Royal Restaurant (Score: 90)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Royal Gym (Score: 82)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Premium Beauty Salon (Score: 90)
+2025-10-28 17:05:34 [INFO]: Qualified lead: Premium Gym (Score: 95)
+2025-10-28 17:05:34 [INFO]: Processed 20 businesses, 20 qualified leads
+2025-10-28 17:06:04 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:06:04 [INFO]: Using real Google Maps scraping
+2025-10-28 17:06:04 [INFO]: Launching browser...
+2025-10-28 17:06:05 [INFO]: Browser initialized successfully
+2025-10-28 17:06:05 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:06:13 [INFO]: Results panel loaded successfully
+2025-10-28 17:06:13 [INFO]: Search loaded, starting to extract businesses
+2025-10-28 17:06:18 [INFO]: Scrolling through results...
+2025-10-28 17:06:22 [INFO]: Scroll attempt 1/5
+2025-10-28 17:06:24 [INFO]: Reached end of results
+2025-10-28 17:06:27 [INFO]: Extracting business data...
+2025-10-28 17:06:27 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:06:27 [INFO]: Extracted 0 businesses
+2025-10-28 17:06:27 [WARN]: No businesses extracted. Page might need more time to load or selectors need updating.
+2025-10-28 17:06:27 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 17:06:27 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 17:06:27 [INFO]: Returning 0 businesses
+2025-10-28 17:06:27 [INFO]: Browser closed
+2025-10-28 17:06:27 [INFO]: Processing 0 businesses...
+2025-10-28 17:06:27 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 17:06:27 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 17:06:49 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:06:49 [INFO]: Using real Google Maps scraping
+2025-10-28 17:06:49 [INFO]: Launching browser...
+2025-10-28 17:06:49 [INFO]: Browser initialized successfully
+2025-10-28 17:06:49 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:06:57 [INFO]: Results panel loaded successfully
+2025-10-28 17:06:57 [INFO]: Search loaded, starting to extract businesses
+2025-10-28 17:07:02 [INFO]: Scrolling through results...
+2025-10-28 17:07:05 [INFO]: Scroll attempt 1/5
+2025-10-28 17:07:07 [INFO]: Reached end of results
+2025-10-28 17:07:10 [INFO]: Extracting business data...
+2025-10-28 17:07:10 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:07:10 [INFO]: Extracted 0 businesses
+2025-10-28 17:07:10 [WARN]: No businesses extracted. Page might need more time to load or selectors need updating.
+2025-10-28 17:07:10 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 17:07:10 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 17:07:10 [INFO]: Returning 0 businesses
+2025-10-28 17:07:10 [INFO]: Browser closed
+2025-10-28 17:07:10 [INFO]: Processing 0 businesses...
+2025-10-28 17:07:10 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 17:07:10 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 17:08:53 [INFO]: ========================================
+2025-10-28 17:08:53 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:08:53 [INFO]: ========================================
+2025-10-28 17:08:53 [INFO]: Environment: production
+2025-10-28 17:08:53 [INFO]: Location: Bangalore, India
+2025-10-28 17:08:53 [INFO]: Search Query: businesses near me
+2025-10-28 17:08:53 [INFO]: ========================================
+2025-10-28 17:08:53 [INFO]: Database initialized successfully
+2025-10-28 17:08:53 [INFO]: Database ready
+2025-10-28 17:08:53 [INFO]: Health check:
+2025-10-28 17:08:53 [INFO]: Google Sheets integration initialized
+2025-10-28 17:08:53 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:08:53 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:08:53 [INFO]: Scheduled health check: every hour
+2025-10-28 17:08:53 [INFO]: Application started successfully
+2025-10-28 17:08:53 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:08:53 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:09:05 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:09:05 [INFO]: Using real Google Maps scraping
+2025-10-28 17:09:05 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:09:06 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:09:06 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:09:14 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:09:21 [INFO]: Search submitted
+2025-10-28 17:09:21 [INFO]: Waiting for results to load...
+2025-10-28 17:09:31 [INFO]: Results panel loaded successfully
+2025-10-28 17:09:32 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:09:37 [INFO]: Scrolling through results...
+2025-10-28 17:09:44 [INFO]: Scroll attempt 1/5
+2025-10-28 17:09:50 [INFO]: Scroll attempt 2/5
+2025-10-28 17:09:57 [INFO]: Scroll attempt 3/5
+2025-10-28 17:10:05 [INFO]: Scroll attempt 4/5
+2025-10-28 17:10:12 [INFO]: Scroll attempt 5/5
+2025-10-28 17:10:15 [INFO]: Extracting business data...
+2025-10-28 17:10:16 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:10:16 [INFO]: Extracted 0 businesses
+2025-10-28 17:10:16 [WARN]: No businesses extracted. Page might need more time to load or selectors need updating.
+2025-10-28 17:10:16 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 17:10:16 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 17:10:16 [INFO]: Returning 0 businesses
+2025-10-28 17:10:16 [INFO]: Browser closed
+2025-10-28 17:10:16 [INFO]: Processing 0 businesses...
+2025-10-28 17:10:16 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 17:10:16 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 17:11:27 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:11:27 [INFO]: Using real Google Maps scraping
+2025-10-28 17:11:27 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:11:28 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:11:28 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:11:36 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:11:42 [INFO]: Search submitted
+2025-10-28 17:11:42 [INFO]: Waiting for results to load...
+2025-10-28 17:11:52 [INFO]: Results panel loaded successfully
+2025-10-28 17:11:52 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:11:57 [INFO]: Scrolling through results...
+2025-10-28 17:12:05 [INFO]: Scroll attempt 1/5
+2025-10-28 17:12:13 [INFO]: Scroll attempt 2/5
+2025-10-28 17:12:18 [INFO]: Scroll attempt 3/5
+2025-10-28 17:12:26 [INFO]: Scroll attempt 4/5
+2025-10-28 17:12:33 [INFO]: Scroll attempt 5/5
+2025-10-28 17:12:35 [INFO]: Extracting business data...
+2025-10-28 17:12:35 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:12:35 [INFO]: Extracted 0 businesses
+2025-10-28 17:12:35 [WARN]: No businesses extracted. Page might need more time to load or selectors need updating.
+2025-10-28 17:12:35 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 17:12:35 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 17:12:35 [INFO]: Returning 0 businesses
+2025-10-28 17:12:36 [INFO]: Browser closed
+2025-10-28 17:12:36 [INFO]: Processing 0 businesses...
+2025-10-28 17:12:36 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 17:12:36 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 17:16:12 [INFO]: ========================================
+2025-10-28 17:16:12 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:16:12 [INFO]: ========================================
+2025-10-28 17:16:12 [INFO]: Environment: production
+2025-10-28 17:16:12 [INFO]: Location: Bangalore, India
+2025-10-28 17:16:12 [INFO]: Search Query: businesses near me
+2025-10-28 17:16:12 [INFO]: ========================================
+2025-10-28 17:16:12 [INFO]: Database initialized successfully
+2025-10-28 17:16:12 [INFO]: Database ready
+2025-10-28 17:16:12 [INFO]: Health check:
+2025-10-28 17:16:12 [INFO]: Google Sheets integration initialized
+2025-10-28 17:16:12 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:16:12 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:16:12 [INFO]: Scheduled health check: every hour
+2025-10-28 17:16:12 [INFO]: Application started successfully
+2025-10-28 17:16:12 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:16:12 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:16:18 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:16:18 [INFO]: Using real Google Maps scraping
+2025-10-28 17:16:18 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:16:19 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:16:19 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:16:27 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:16:34 [INFO]: Search submitted
+2025-10-28 17:16:34 [INFO]: Waiting for results to load...
+2025-10-28 17:16:44 [INFO]: Results panel loaded successfully
+2025-10-28 17:16:45 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:16:48 [INFO]: Scrolling through results...
+2025-10-28 17:16:56 [INFO]: Scroll attempt 1/5
+2025-10-28 17:17:02 [INFO]: Scroll attempt 2/5
+2025-10-28 17:17:11 [INFO]: Scroll attempt 3/5
+2025-10-28 17:17:19 [INFO]: Scroll attempt 4/5
+2025-10-28 17:17:27 [INFO]: Scroll attempt 5/5
+2025-10-28 17:17:30 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 17:17:30 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:17:30 [INFO]: Found 0 businesses in the list
+2025-10-28 17:17:30 [WARN]: No business cards found in the sidebar!
+2025-10-28 17:17:30 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 17:17:30 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 17:17:30 [INFO]: Returning 0 businesses
+2025-10-28 17:17:31 [INFO]: Browser closed
+2025-10-28 17:17:31 [INFO]: Processing 0 businesses...
+2025-10-28 17:17:31 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 17:17:31 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 17:21:05 [INFO]: ========================================
+2025-10-28 17:21:05 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:21:05 [INFO]: ========================================
+2025-10-28 17:21:05 [INFO]: Environment: production
+2025-10-28 17:21:05 [INFO]: Location: Bangalore, India
+2025-10-28 17:21:05 [INFO]: Search Query: businesses near me
+2025-10-28 17:21:05 [INFO]: ========================================
+2025-10-28 17:21:05 [INFO]: Database initialized successfully
+2025-10-28 17:21:05 [INFO]: Database ready
+2025-10-28 17:21:05 [INFO]: Health check:
+2025-10-28 17:21:05 [INFO]: Google Sheets integration initialized
+2025-10-28 17:21:05 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:21:05 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:21:05 [INFO]: Scheduled health check: every hour
+2025-10-28 17:21:05 [INFO]: Application started successfully
+2025-10-28 17:21:05 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:21:05 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:22:05 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:22:05 [INFO]: Using real Google Maps scraping
+2025-10-28 17:22:05 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:22:06 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:22:06 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:22:15 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:22:22 [INFO]: Search submitted
+2025-10-28 17:22:22 [INFO]: Waiting for results to load...
+2025-10-28 17:22:33 [INFO]: Results panel loaded successfully
+2025-10-28 17:22:34 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:22:38 [INFO]: Scrolling through results...
+2025-10-28 17:22:43 [INFO]: Scroll attempt 1/5
+2025-10-28 17:22:50 [INFO]: Scroll attempt 2/5
+2025-10-28 17:22:56 [INFO]: Scroll attempt 3/5
+2025-10-28 17:23:02 [INFO]: Scroll attempt 4/5
+2025-10-28 17:23:08 [INFO]: Scroll attempt 5/5
+2025-10-28 17:23:10 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 17:23:11 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:23:11 [INFO]: Found 60 businesses in the list
+2025-10-28 17:23:11 [INFO]: Processing business 1/60
+2025-10-28 17:23:15 [INFO]: ✓ Extracted: Finz Business Solutions
+2025-10-28 17:23:17 [INFO]: Processing business 2/60
+2025-10-28 17:23:21 [INFO]: ✓ Extracted: SmappAnalytics
+2025-10-28 17:23:22 [INFO]: Processing business 3/60
+2025-10-28 17:23:26 [INFO]: ✓ Extracted: Sresta Technologies
+2025-10-28 17:23:27 [INFO]: Processing business 4/60
+2025-10-28 17:23:32 [INFO]: ✓ Extracted: Business Intellects
+2025-10-28 17:23:33 [INFO]: Processing business 5/60
+2025-10-28 17:23:37 [INFO]: ✓ Extracted: ThoughtWare Training Pvt Ltd(ExxpertSCM, ThoughtWare Analytics)
+2025-10-28 17:23:38 [INFO]: Processing business 6/60
+2025-10-28 17:23:42 [INFO]: ✓ Extracted: Kaira Technologies
+2025-10-28 17:23:43 [INFO]: Processing business 7/60
+2025-10-28 17:23:48 [INFO]: ✓ Extracted: Commercial and Business Aviation Services Pvt Ltd
+2025-10-28 17:23:50 [INFO]: Processing business 8/60
+2025-10-28 17:23:53 [INFO]: ✓ Extracted: WSP Consultants India Pvt. Ltd.
+2025-10-28 17:23:55 [INFO]: Processing business 9/60
+2025-10-28 17:23:59 [INFO]: ✓ Extracted: Context India
+2025-10-28 17:24:00 [INFO]: Processing business 10/60
+2025-10-28 17:24:04 [INFO]: ✓ Extracted: Countix Solutions Private Limited
+2025-10-28 17:24:06 [INFO]: Processing business 11/60
+2025-10-28 17:24:09 [INFO]: ✓ Extracted: Affordable Business Solutions (ABS)
+2025-10-28 17:24:10 [INFO]: Processing business 12/60
+2025-10-28 17:24:15 [INFO]: ✓ Extracted: VJM Global
+2025-10-28 17:24:16 [INFO]: Processing business 13/60
+2025-10-28 17:24:21 [INFO]: ✓ Extracted: Support Corporate Consulting
+2025-10-28 17:24:23 [INFO]: Processing business 14/60
+2025-10-28 17:24:27 [INFO]: ✓ Extracted: AK & Co. Auditor and Tax Consultant
+2025-10-28 17:24:28 [INFO]: Processing business 15/60
+2025-10-28 17:24:32 [INFO]: ✓ Extracted: Bizcon Services- Management Consulting Company in Bangalore
+2025-10-28 17:24:34 [INFO]: Processing business 16/60
+2025-10-28 17:24:37 [INFO]: ✓ Extracted: Empower Business
+2025-10-28 17:24:39 [INFO]: Processing business 17/60
+2025-10-28 17:24:42 [INFO]: ✓ Extracted: TPI Advisory Services India Pvt. Ltd.(Subsidiary Of ISG)
+2025-10-28 17:24:44 [INFO]: Processing business 18/60
+2025-10-28 17:24:48 [INFO]: ✓ Extracted: Saikripa Techno Services
+2025-10-28 17:24:50 [INFO]: Processing business 19/60
+2025-10-28 17:24:54 [INFO]: ✓ Extracted: TALENT GROUP no1 business networks..
+2025-10-28 17:24:55 [INFO]: Processing business 20/60
+2025-10-28 17:24:59 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 17:25:00 [INFO]: Processing business 21/60
+2025-10-28 17:25:03 [INFO]: ✓ Extracted: AR Groups
+2025-10-28 17:25:05 [INFO]: Processing business 22/60
+2025-10-28 17:25:09 [INFO]: ✓ Extracted: Accencis Business Solutions LLP
+2025-10-28 17:25:11 [INFO]: Processing business 23/60
+2025-10-28 17:25:14 [INFO]: ✓ Extracted: SSG Business Services Pvt Ltd.
+2025-10-28 17:25:15 [INFO]: Processing business 24/60
+2025-10-28 17:25:19 [INFO]: ✓ Extracted: BVPRGJ CONSULTANTS
+2025-10-28 17:25:21 [INFO]: Processing business 25/60
+2025-10-28 17:25:24 [INFO]: ✓ Extracted: Synod Bioscience
+2025-10-28 17:25:25 [INFO]: Processing business 26/60
+2025-10-28 17:25:28 [INFO]: ✓ Extracted: AIBN (Apna International Business Network)
+2025-10-28 17:25:30 [INFO]: Processing business 27/60
+2025-10-28 17:25:35 [INFO]: ✓ Extracted: Esskay (Engineering Center)
+2025-10-28 17:25:37 [INFO]: Processing business 28/60
+2025-10-28 17:25:41 [INFO]: ✓ Extracted: 5N Business Consultants
+2025-10-28 17:25:42 [INFO]: Processing business 29/60
+2025-10-28 17:25:47 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 17:25:48 [INFO]: Processing business 30/60
+2025-10-28 17:25:53 [INFO]: ✓ Extracted: HBR Business Solutions
+2025-10-28 17:25:55 [INFO]: Processing business 31/60
+2025-10-28 17:25:58 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 17:25:59 [INFO]: Processing business 32/60
+2025-10-28 17:26:04 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 17:26:06 [INFO]: Processing business 33/60
+2025-10-28 17:26:10 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 17:26:11 [INFO]: Processing business 34/60
+2025-10-28 17:26:16 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 17:26:18 [INFO]: Processing business 35/60
+2025-10-28 17:26:22 [INFO]: ✓ Extracted: RECTOQ software solutions
+2025-10-28 17:26:24 [INFO]: Processing business 36/60
+2025-10-28 17:26:29 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:26:31 [INFO]: Processing business 37/60
+2025-10-28 17:26:35 [INFO]: ✓ Extracted: Apex Fund Services LLP (Bengaluru)
+2025-10-28 17:26:37 [INFO]: Processing business 38/60
+2025-10-28 17:26:41 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:26:43 [INFO]: Processing business 39/60
+2025-10-28 17:26:48 [INFO]: ✓ Extracted: ECO CONSULTANTS
+2025-10-28 17:26:49 [INFO]: Processing business 40/60
+2025-10-28 17:26:53 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 17:26:55 [INFO]: Processing business 41/60
+2025-10-28 17:26:59 [INFO]: ✓ Extracted: Indiastartup
+2025-10-28 17:27:01 [INFO]: Processing business 42/60
+2025-10-28 17:27:05 [INFO]: ✓ Extracted: R A M AND ASSOCIATES., Chartered Accountants
+2025-10-28 17:27:06 [INFO]: Processing business 43/60
+2025-10-28 17:27:11 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:27:13 [INFO]: Processing business 44/60
+2025-10-28 17:27:18 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:27:19 [INFO]: Processing business 45/60
+2025-10-28 17:27:24 [INFO]: ✓ Extracted: MS IT & Business Services
+2025-10-28 17:27:25 [INFO]: Processing business 46/60
+2025-10-28 17:27:28 [INFO]: ✓ Extracted: 8moretales: Business Automation & AI
+2025-10-28 17:27:30 [INFO]: Processing business 47/60
+2025-10-28 17:27:33 [INFO]: ✓ Extracted: iPowerAutomation
+2025-10-28 17:27:35 [INFO]: Processing business 48/60
+2025-10-28 17:27:39 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 17:27:41 [INFO]: Processing business 49/60
+2025-10-28 17:27:45 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 17:27:46 [INFO]: Processing business 50/60
+2025-10-28 17:27:50 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 17:27:52 [INFO]: Processing business 51/60
+2025-10-28 17:27:56 [INFO]: ✓ Extracted: R K Associates
+2025-10-28 17:27:57 [INFO]: Processing business 52/60
+2025-10-28 17:28:02 [INFO]: ✓ Extracted: 10X Architectural Auxiliary Services Private Limited
+2025-10-28 17:28:03 [INFO]: Processing business 53/60
+2025-10-28 17:28:07 [INFO]: ✓ Extracted: Acer Mall - Exclusive Store
+2025-10-28 17:28:09 [INFO]: Processing business 54/60
+2025-10-28 17:28:12 [INFO]: ✓ Extracted: Startup Company Registration
+2025-10-28 17:28:13 [INFO]: Processing business 55/60
+2025-10-28 17:28:17 [INFO]: ✓ Extracted: ET Business Consulting
+2025-10-28 17:28:18 [INFO]: Processing business 56/60
+2025-10-28 17:28:23 [INFO]: ✓ Extracted: K K Raj & Co. Chartered Accountants
+2025-10-28 17:28:25 [INFO]: Processing business 57/60
+2025-10-28 17:28:29 [INFO]: ✓ Extracted: Franchise Bazar - Best Franchise Consultants In Bangalore Since 1998
+2025-10-28 17:28:30 [INFO]: Processing business 58/60
+2025-10-28 17:28:33 [INFO]: ✓ Extracted: MGB Bengaluru
+2025-10-28 17:28:35 [INFO]: Processing business 59/60
+2025-10-28 17:28:39 [INFO]: ✓ Extracted: Alfa Compliance Consulting Services
+2025-10-28 17:28:40 [INFO]: Processing business 60/60
+2025-10-28 17:28:45 [INFO]: ✓ Extracted: Common Tech Solutions
+2025-10-28 17:28:46 [INFO]: Successfully extracted 60 out of 60 businesses
+2025-10-28 17:28:46 [INFO]: Returning 10 businesses
+2025-10-28 17:28:47 [INFO]: Browser closed
+2025-10-28 17:28:47 [INFO]: Processing 10 businesses...
+2025-10-28 17:28:47 [ERROR]: Insert business error:
+2025-10-28 17:28:47 [ERROR]: Insert business error:
+2025-10-28 17:28:47 [ERROR]: Insert business error:
+2025-10-28 17:28:47 [INFO]: Processed 10 businesses, 0 qualified leads
+2025-10-28 17:28:47 [INFO]: Manual scraping completed: 10 businesses processed
+2025-10-28 17:31:33 [INFO]: ========================================
+2025-10-28 17:31:33 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:31:33 [INFO]: ========================================
+2025-10-28 17:31:33 [INFO]: Environment: production
+2025-10-28 17:31:33 [INFO]: Location: Bangalore, India
+2025-10-28 17:31:33 [INFO]: Search Query: businesses near me
+2025-10-28 17:31:33 [INFO]: ========================================
+2025-10-28 17:31:33 [INFO]: Database initialized successfully
+2025-10-28 17:31:33 [INFO]: Database ready
+2025-10-28 17:31:33 [INFO]: Health check:
+2025-10-28 17:31:33 [INFO]: Google Sheets integration initialized
+2025-10-28 17:31:33 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:31:33 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:31:33 [INFO]: Scheduled health check: every hour
+2025-10-28 17:31:33 [INFO]: Application started successfully
+2025-10-28 17:31:33 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:31:33 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:31:49 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:31:49 [INFO]: Using real Google Maps scraping
+2025-10-28 17:31:49 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:31:50 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:31:50 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:31:59 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:32:06 [INFO]: Search submitted
+2025-10-28 17:32:06 [INFO]: Waiting for results to load...
+2025-10-28 17:32:18 [INFO]: Results panel loaded successfully
+2025-10-28 17:32:19 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:32:23 [INFO]: Scrolling through results...
+2025-10-28 17:32:32 [INFO]: Scroll attempt 1/5
+2025-10-28 17:32:41 [INFO]: Scroll attempt 2/5
+2025-10-28 17:32:50 [INFO]: Scroll attempt 3/5
+2025-10-28 17:32:59 [INFO]: Scroll attempt 4/5
+2025-10-28 17:33:04 [INFO]: Scroll attempt 5/5
+2025-10-28 17:33:07 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 17:33:07 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:33:07 [INFO]: Found 60 businesses in the list
+2025-10-28 17:33:07 [INFO]: Processing business 1/60
+2025-10-28 17:33:12 [INFO]: ✓ Extracted: Finz Business Solutions
+2025-10-28 17:33:14 [INFO]: Processing business 2/60
+2025-10-28 17:33:17 [INFO]: ✓ Extracted: SmappAnalytics
+2025-10-28 17:33:19 [INFO]: Processing business 3/60
+2025-10-28 17:33:24 [INFO]: ✓ Extracted: Sresta Technologies
+2025-10-28 17:33:25 [INFO]: Processing business 4/60
+2025-10-28 17:33:29 [INFO]: ✓ Extracted: Business Intellects
+2025-10-28 17:33:30 [INFO]: Processing business 5/60
+2025-10-28 17:33:35 [INFO]: ✓ Extracted: ThoughtWare Training Pvt Ltd(ExxpertSCM, ThoughtWare Analytics)
+2025-10-28 17:33:36 [INFO]: Processing business 6/60
+2025-10-28 17:33:40 [INFO]: ✓ Extracted: Kaira Technologies
+2025-10-28 17:33:41 [INFO]: Processing business 7/60
+2025-10-28 17:33:45 [INFO]: ✓ Extracted: Commercial and Business Aviation Services Pvt Ltd
+2025-10-28 17:33:47 [INFO]: Processing business 8/60
+2025-10-28 17:33:51 [INFO]: ✓ Extracted: WSP Consultants India Pvt. Ltd.
+2025-10-28 17:33:52 [INFO]: Processing business 9/60
+2025-10-28 17:33:56 [INFO]: ✓ Extracted: Context India
+2025-10-28 17:33:58 [INFO]: Processing business 10/60
+2025-10-28 17:34:02 [INFO]: ✓ Extracted: VJM Global
+2025-10-28 17:34:04 [INFO]: Processing business 11/60
+2025-10-28 17:34:07 [INFO]: ✓ Extracted: Countix Solutions Private Limited
+2025-10-28 17:34:09 [INFO]: Processing business 12/60
+2025-10-28 17:34:13 [INFO]: ✓ Extracted: Affordable Business Solutions (ABS)
+2025-10-28 17:34:14 [INFO]: Processing business 13/60
+2025-10-28 17:34:19 [INFO]: ✓ Extracted: Support Corporate Consulting
+2025-10-28 17:34:20 [INFO]: Processing business 14/60
+2025-10-28 17:34:25 [INFO]: ✓ Extracted: AK & Co. Auditor and Tax Consultant
+2025-10-28 17:34:26 [INFO]: Processing business 15/60
+2025-10-28 17:34:30 [INFO]: ✓ Extracted: Bizcon Services- Management Consulting Company in Bangalore
+2025-10-28 17:34:32 [INFO]: Processing business 16/60
+2025-10-28 17:34:37 [INFO]: ✓ Extracted: Empower Business
+2025-10-28 17:34:38 [INFO]: Processing business 17/60
+2025-10-28 17:34:43 [INFO]: ✓ Extracted: Saikripa Techno Services
+2025-10-28 17:34:44 [INFO]: Processing business 18/60
+2025-10-28 17:34:49 [INFO]: ✓ Extracted: TPI Advisory Services India Pvt. Ltd.(Subsidiary Of ISG)
+2025-10-28 17:34:51 [INFO]: Processing business 19/60
+2025-10-28 17:34:54 [INFO]: ✓ Extracted: TALENT GROUP no1 business networks..
+2025-10-28 17:34:56 [INFO]: Processing business 20/60
+2025-10-28 17:35:01 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 17:35:02 [INFO]: Processing business 21/60
+2025-10-28 17:35:06 [INFO]: ✓ Extracted: AR Groups
+2025-10-28 17:35:07 [INFO]: Processing business 22/60
+2025-10-28 17:35:10 [INFO]: ✓ Extracted: Accencis Business Solutions LLP
+2025-10-28 17:35:12 [INFO]: Processing business 23/60
+2025-10-28 17:35:16 [INFO]: ✓ Extracted: SSG Business Services Pvt Ltd.
+2025-10-28 17:35:17 [INFO]: Processing business 24/60
+2025-10-28 17:35:22 [INFO]: ✓ Extracted: BVPRGJ CONSULTANTS
+2025-10-28 17:35:23 [INFO]: Processing business 25/60
+2025-10-28 17:35:27 [INFO]: ✓ Extracted: Synod Bioscience
+2025-10-28 17:35:28 [INFO]: Processing business 26/60
+2025-10-28 17:35:32 [INFO]: ✓ Extracted: AIBN (Apna International Business Network)
+2025-10-28 17:35:34 [INFO]: Processing business 27/60
+2025-10-28 17:35:38 [INFO]: ✓ Extracted: Esskay (Engineering Center)
+2025-10-28 17:35:39 [INFO]: Processing business 28/60
+2025-10-28 17:35:44 [INFO]: ✓ Extracted: 5N Business Consultants
+2025-10-28 17:35:46 [INFO]: Processing business 29/60
+2025-10-28 17:35:49 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 17:35:51 [INFO]: Processing business 30/60
+2025-10-28 17:35:54 [INFO]: ✓ Extracted: HBR Business Solutions
+2025-10-28 17:35:56 [INFO]: Processing business 31/60
+2025-10-28 17:35:59 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 17:36:00 [INFO]: Processing business 32/60
+2025-10-28 17:36:05 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 17:36:07 [INFO]: Processing business 33/60
+2025-10-28 17:36:10 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 17:36:11 [INFO]: Processing business 34/60
+2025-10-28 17:36:16 [INFO]: ✓ Extracted: RECTOQ software solutions
+2025-10-28 17:36:18 [INFO]: Processing business 35/60
+2025-10-28 17:36:22 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 17:36:23 [INFO]: Processing business 36/60
+2025-10-28 17:36:26 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:36:28 [INFO]: Processing business 37/60
+2025-10-28 17:36:31 [INFO]: ✓ Extracted: Apex Fund Services LLP (Bengaluru)
+2025-10-28 17:36:33 [INFO]: Processing business 38/60
+2025-10-28 17:36:36 [INFO]: ✓ Extracted: ECO CONSULTANTS
+2025-10-28 17:36:37 [INFO]: Processing business 39/60
+2025-10-28 17:36:42 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:36:43 [INFO]: Processing business 40/60
+2025-10-28 17:36:48 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 17:36:49 [INFO]: Processing business 41/60
+2025-10-28 17:36:53 [INFO]: ✓ Extracted: Indiastartup
+2025-10-28 17:36:54 [INFO]: Processing business 42/60
+2025-10-28 17:36:58 [INFO]: ✓ Extracted: R A M AND ASSOCIATES., Chartered Accountants
+2025-10-28 17:36:59 [INFO]: Processing business 43/60
+2025-10-28 17:37:03 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:37:05 [INFO]: Processing business 44/60
+2025-10-28 17:37:09 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:37:10 [INFO]: Processing business 45/60
+2025-10-28 17:37:14 [INFO]: ✓ Extracted: 8moretales: Business Automation & AI
+2025-10-28 17:37:15 [INFO]: Processing business 46/60
+2025-10-28 17:37:19 [INFO]: ✓ Extracted: MS IT & Business Services
+2025-10-28 17:37:21 [INFO]: Processing business 47/60
+2025-10-28 17:37:24 [INFO]: ✓ Extracted: iPowerAutomation
+2025-10-28 17:37:25 [INFO]: Processing business 48/60
+2025-10-28 17:37:29 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 17:37:31 [INFO]: Processing business 49/60
+2025-10-28 17:37:36 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 17:37:37 [INFO]: Processing business 50/60
+2025-10-28 17:37:41 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 17:37:43 [INFO]: Processing business 51/60
+2025-10-28 17:37:46 [INFO]: ✓ Extracted: R K Associates
+2025-10-28 17:37:48 [INFO]: Processing business 52/60
+2025-10-28 17:37:52 [INFO]: ✓ Extracted: 10X Architectural Auxiliary Services Private Limited
+2025-10-28 17:37:53 [INFO]: Processing business 53/60
+2025-10-28 17:37:58 [INFO]: ✓ Extracted: Acer Mall - Exclusive Store
+2025-10-28 17:37:59 [INFO]: Processing business 54/60
+2025-10-28 17:38:03 [INFO]: ✓ Extracted: K K Raj & Co. Chartered Accountants
+2025-10-28 17:38:04 [INFO]: Processing business 55/60
+2025-10-28 17:38:08 [INFO]: ✓ Extracted: Startup Company Registration
+2025-10-28 17:38:10 [INFO]: Processing business 56/60
+2025-10-28 17:38:15 [INFO]: ✓ Extracted: ET Business Consulting
+2025-10-28 17:38:16 [INFO]: Processing business 57/60
+2025-10-28 17:38:21 [INFO]: ✓ Extracted: Franchise Bazar - Best Franchise Consultants In Bangalore Since 1998
+2025-10-28 17:38:22 [INFO]: Processing business 58/60
+2025-10-28 17:38:26 [INFO]: ✓ Extracted: Alfa Compliance Consulting Services
+2025-10-28 17:38:28 [INFO]: Processing business 59/60
+2025-10-28 17:38:32 [INFO]: ✓ Extracted: MGB Bengaluru
+2025-10-28 17:38:34 [INFO]: Processing business 60/60
+2025-10-28 17:38:38 [INFO]: ✓ Extracted: Common Tech Solutions
+2025-10-28 17:38:39 [INFO]: Successfully extracted 60 out of 60 businesses
+2025-10-28 17:38:39 [INFO]: Returning 10 businesses
+2025-10-28 17:38:40 [INFO]: Browser closed
+2025-10-28 17:38:40 [INFO]: Processing 10 businesses...
+2025-10-28 17:38:40 [ERROR]: Insert business error:
+2025-10-28 17:38:40 [ERROR]: Insert business error:
+2025-10-28 17:38:40 [ERROR]: Insert business error:
+2025-10-28 17:38:40 [INFO]: Processed 10 businesses, 0 qualified leads
+2025-10-28 17:38:40 [INFO]: Manual scraping completed: 10 businesses processed
+2025-10-28 17:43:49 [INFO]: ========================================
+2025-10-28 17:43:49 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:43:49 [INFO]: ========================================
+2025-10-28 17:43:49 [INFO]: Environment: production
+2025-10-28 17:43:49 [INFO]: Location: Bangalore, India
+2025-10-28 17:43:49 [INFO]: Search Query: businesses near me
+2025-10-28 17:43:49 [INFO]: ========================================
+2025-10-28 17:43:49 [INFO]: Database initialized successfully
+2025-10-28 17:43:49 [INFO]: Database ready
+2025-10-28 17:43:49 [INFO]: Health check:
+2025-10-28 17:43:49 [INFO]: Google Sheets integration initialized
+2025-10-28 17:43:49 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:43:49 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:43:49 [INFO]: Scheduled health check: every hour
+2025-10-28 17:43:49 [INFO]: Application started successfully
+2025-10-28 17:43:49 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:43:49 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:44:05 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:44:05 [INFO]: Using real Google Maps scraping
+2025-10-28 17:44:05 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:44:06 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:44:06 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:44:18 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:44:26 [INFO]: Search submitted
+2025-10-28 17:44:26 [INFO]: Waiting for results to load...
+2025-10-28 17:44:36 [INFO]: Results panel loaded successfully
+2025-10-28 17:44:37 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:44:40 [INFO]: Scrolling through results...
+2025-10-28 17:44:47 [INFO]: Scroll attempt 1/5
+2025-10-28 17:44:53 [INFO]: Scroll attempt 2/5
+2025-10-28 17:45:00 [INFO]: Scroll attempt 3/5
+2025-10-28 17:45:10 [INFO]: Scroll attempt 4/5
+2025-10-28 17:45:16 [INFO]: Scroll attempt 5/5
+2025-10-28 17:45:18 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 17:45:18 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:45:18 [INFO]: Found 60 businesses in the list
+2025-10-28 17:45:18 [INFO]: Processing business 1/60
+2025-10-28 17:45:22 [INFO]: ✓ Extracted: Finz Business Solutions
+2025-10-28 17:45:23 [INFO]: Processing business 2/60
+2025-10-28 17:45:26 [INFO]: ✓ Extracted: SmappAnalytics
+2025-10-28 17:45:28 [INFO]: Processing business 3/60
+2025-10-28 17:45:32 [INFO]: ✓ Extracted: Sresta Technologies
+2025-10-28 17:45:33 [INFO]: Processing business 4/60
+2025-10-28 17:45:37 [INFO]: ✓ Extracted: Business Intellects
+2025-10-28 17:45:39 [INFO]: Processing business 5/60
+2025-10-28 17:45:43 [INFO]: ✓ Extracted: ThoughtWare Training Pvt Ltd(ExxpertSCM, ThoughtWare Analytics)
+2025-10-28 17:45:44 [INFO]: Processing business 6/60
+2025-10-28 17:45:49 [INFO]: ✓ Extracted: Kaira Technologies
+2025-10-28 17:45:50 [INFO]: Processing business 7/60
+2025-10-28 17:45:55 [INFO]: ✓ Extracted: Commercial and Business Aviation Services Pvt Ltd
+2025-10-28 17:45:57 [INFO]: Processing business 8/60
+2025-10-28 17:46:01 [INFO]: ✓ Extracted: WSP Consultants India Pvt. Ltd.
+2025-10-28 17:46:03 [INFO]: Processing business 9/60
+2025-10-28 17:46:06 [INFO]: ✓ Extracted: Context India
+2025-10-28 17:46:07 [INFO]: Processing business 10/60
+2025-10-28 17:46:10 [INFO]: ✓ Extracted: VJM Global
+2025-10-28 17:46:12 [INFO]: Processing business 11/60
+2025-10-28 17:46:17 [INFO]: ✓ Extracted: Countix Solutions Private Limited
+2025-10-28 17:46:19 [INFO]: Processing business 12/60
+2025-10-28 17:46:22 [INFO]: ✓ Extracted: Affordable Business Solutions (ABS)
+2025-10-28 17:46:23 [INFO]: Processing business 13/60
+2025-10-28 17:46:27 [INFO]: ✓ Extracted: Support Corporate Consulting
+2025-10-28 17:46:28 [INFO]: Processing business 14/60
+2025-10-28 17:46:32 [INFO]: ✓ Extracted: AK & Co. Auditor and Tax Consultant
+2025-10-28 17:46:34 [INFO]: Processing business 15/60
+2025-10-28 17:46:39 [INFO]: ✓ Extracted: Bizcon Services- Management Consulting Company in Bangalore
+2025-10-28 17:46:40 [INFO]: Processing business 16/60
+2025-10-28 17:46:44 [INFO]: ✓ Extracted: Empower Business
+2025-10-28 17:46:46 [INFO]: Processing business 17/60
+2025-10-28 17:46:50 [INFO]: ✓ Extracted: Saikripa Techno Services
+2025-10-28 17:46:52 [INFO]: Processing business 18/60
+2025-10-28 17:46:56 [INFO]: ✓ Extracted: TPI Advisory Services India Pvt. Ltd.(Subsidiary Of ISG)
+2025-10-28 17:46:58 [INFO]: Processing business 19/60
+2025-10-28 17:47:01 [INFO]: ✓ Extracted: TALENT GROUP no1 business networks..
+2025-10-28 17:47:03 [INFO]: Processing business 20/60
+2025-10-28 17:47:06 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 17:47:08 [INFO]: Processing business 21/60
+2025-10-28 17:47:11 [INFO]: ✓ Extracted: Accencis Business Solutions LLP
+2025-10-28 17:47:12 [INFO]: Processing business 22/60
+2025-10-28 17:47:16 [INFO]: ✓ Extracted: TALENT GROUP no1 business networks..
+2025-10-28 17:47:17 [INFO]: Processing business 23/60
+2025-10-28 17:47:21 [INFO]: ✓ Extracted: Esskay (Engineering Center)
+2025-10-28 17:47:23 [INFO]: Processing business 24/60
+2025-10-28 17:47:27 [INFO]: ✓ Extracted: Synod Bioscience
+2025-10-28 17:47:28 [INFO]: Processing business 25/60
+2025-10-28 17:47:32 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 17:47:33 [INFO]: Processing business 26/60
+2025-10-28 17:47:38 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 17:47:40 [INFO]: Processing business 27/60
+2025-10-28 17:47:44 [INFO]: ✓ Extracted: Companies registration and compliance services
+2025-10-28 17:47:46 [INFO]: Processing business 28/60
+2025-10-28 17:47:50 [INFO]: ✓ Extracted: Smartz Research Identity Pvt Ltd
+2025-10-28 17:47:51 [INFO]: Processing business 29/60
+2025-10-28 17:47:56 [INFO]: ✓ Extracted: HBR Business Solutions
+2025-10-28 17:47:58 [INFO]: Processing business 30/60
+2025-10-28 17:48:02 [INFO]: ✓ Extracted: Aavid Knowledge Management Services Pvt. Ltd.
+2025-10-28 17:48:03 [INFO]: Processing business 31/60
+2025-10-28 17:48:07 [INFO]: ✓ Extracted: AIBN (Apna International Business Network)
+2025-10-28 17:48:09 [INFO]: Processing business 32/60
+2025-10-28 17:48:13 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 17:48:14 [INFO]: Processing business 33/60
+2025-10-28 17:48:18 [INFO]: ✓ Extracted: 5N Business Consultants
+2025-10-28 17:48:19 [INFO]: Processing business 34/60
+2025-10-28 17:48:23 [INFO]: ✓ Extracted: BVPRGJ CONSULTANTS
+2025-10-28 17:48:25 [INFO]: Processing business 35/60
+2025-10-28 17:48:29 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 17:48:30 [INFO]: Processing business 36/60
+2025-10-28 17:48:33 [INFO]: ✓ Extracted: RECTOQ software solutions
+2025-10-28 17:48:35 [INFO]: Processing business 37/60
+2025-10-28 17:48:39 [INFO]: ✓ Extracted: aNumak & Company
+2025-10-28 17:48:41 [INFO]: Processing business 38/60
+2025-10-28 17:48:46 [INFO]: ✓ Extracted: SSG Business Services Pvt Ltd.
+2025-10-28 17:48:47 [INFO]: Processing business 39/60
+2025-10-28 17:48:50 [INFO]: ✓ Extracted: Puppet Pin Productions
+2025-10-28 17:48:52 [INFO]: Processing business 40/60
+2025-10-28 17:48:56 [INFO]: ✓ Extracted: ECO CONSULTANTS
+2025-10-28 17:48:57 [INFO]: Processing business 41/60
+2025-10-28 17:49:02 [INFO]: ✓ Extracted: Indiastartup
+2025-10-28 17:49:03 [INFO]: Processing business 42/60
+2025-10-28 17:49:08 [INFO]: ✓ Extracted: R A M AND ASSOCIATES., Chartered Accountants
+2025-10-28 17:49:10 [INFO]: Processing business 43/60
+2025-10-28 17:49:13 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:49:15 [INFO]: Processing business 44/60
+2025-10-28 17:49:18 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:49:20 [INFO]: Processing business 45/60
+2025-10-28 17:49:24 [INFO]: ✓ Extracted: 8moretales: Business Automation & AI
+2025-10-28 17:49:25 [INFO]: Processing business 46/60
+2025-10-28 17:49:29 [INFO]: ✓ Extracted: MS IT & Business Services
+2025-10-28 17:49:31 [INFO]: Processing business 47/60
+2025-10-28 17:49:34 [INFO]: ✓ Extracted: iPowerAutomation
+2025-10-28 17:49:36 [INFO]: Processing business 48/60
+2025-10-28 17:49:40 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 17:49:41 [INFO]: Processing business 49/60
+2025-10-28 17:49:46 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 17:49:48 [INFO]: Processing business 50/60
+2025-10-28 17:49:52 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 17:49:54 [INFO]: Processing business 51/60
+2025-10-28 17:49:58 [INFO]: ✓ Extracted: R K Associates
+2025-10-28 17:50:00 [INFO]: Processing business 52/60
+2025-10-28 17:50:04 [INFO]: ✓ Extracted: 10X Architectural Auxiliary Services Private Limited
+2025-10-28 17:50:06 [INFO]: Processing business 53/60
+2025-10-28 17:50:09 [INFO]: ✓ Extracted: Acer Mall - Exclusive Store
+2025-10-28 17:50:10 [INFO]: Processing business 54/60
+2025-10-28 17:50:13 [INFO]: ✓ Extracted: K K Raj & Co. Chartered Accountants
+2025-10-28 17:50:15 [INFO]: Processing business 55/60
+2025-10-28 17:50:19 [INFO]: ✓ Extracted: Startup Company Registration
+2025-10-28 17:50:21 [INFO]: Processing business 56/60
+2025-10-28 17:50:25 [INFO]: ✓ Extracted: ET Business Consulting
+2025-10-28 17:50:27 [INFO]: Processing business 57/60
+2025-10-28 17:50:31 [INFO]: ✓ Extracted: Franchise Bazar - Best Franchise Consultants In Bangalore Since 1998
+2025-10-28 17:50:33 [INFO]: Processing business 58/60
+2025-10-28 17:50:36 [INFO]: ✓ Extracted: Alfa Compliance Consulting Services
+2025-10-28 17:50:37 [INFO]: Processing business 59/60
+2025-10-28 17:50:41 [INFO]: ✓ Extracted: MGB Bengaluru
+2025-10-28 17:50:42 [INFO]: Processing business 60/60
+2025-10-28 17:50:45 [INFO]: ✓ Extracted: Common Tech Solutions
+2025-10-28 17:50:47 [INFO]: Successfully extracted 60 out of 60 businesses
+2025-10-28 17:50:47 [INFO]: Returning 10 businesses
+2025-10-28 17:50:48 [INFO]: Browser closed
+2025-10-28 17:50:48 [INFO]: Processing 10 businesses...
+2025-10-28 17:50:48 [ERROR]: Insert business error:
+2025-10-28 17:50:48 [ERROR]: Insert business error:
+2025-10-28 17:50:48 [ERROR]: Insert business error:
+2025-10-28 17:50:48 [INFO]: Processed 10 businesses, 0 qualified leads
+2025-10-28 17:50:48 [INFO]: Manual scraping completed: 10 businesses processed
+2025-10-28 17:53:57 [INFO]: ========================================
+2025-10-28 17:53:57 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 17:53:57 [INFO]: ========================================
+2025-10-28 17:53:57 [INFO]: Environment: production
+2025-10-28 17:53:57 [INFO]: Location: Bangalore, India
+2025-10-28 17:53:57 [INFO]: Search Query: businesses near me
+2025-10-28 17:53:57 [INFO]: ========================================
+2025-10-28 17:53:57 [INFO]: Database initialized successfully
+2025-10-28 17:53:57 [INFO]: Database ready
+2025-10-28 17:53:57 [INFO]: Health check:
+2025-10-28 17:53:57 [INFO]: Google Sheets integration initialized
+2025-10-28 17:53:57 [INFO]: Setting up scheduled jobs...
+2025-10-28 17:53:57 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 17:53:57 [INFO]: Scheduled health check: every hour
+2025-10-28 17:53:57 [INFO]: Application started successfully
+2025-10-28 17:53:57 [INFO]: Waiting for scheduled jobs...
+2025-10-28 17:53:57 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 17:54:31 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 17:54:31 [INFO]: Using real Google Maps scraping
+2025-10-28 17:54:31 [INFO]: Launching browser with anti-detection...
+2025-10-28 17:54:33 [INFO]: Browser initialized with stealth mode
+2025-10-28 17:54:33 [INFO]: First visiting Google Maps homepage...
+2025-10-28 17:54:44 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 17:54:52 [INFO]: Search submitted
+2025-10-28 17:54:52 [INFO]: Waiting for results to load...
+2025-10-28 17:55:02 [INFO]: Results panel loaded successfully
+2025-10-28 17:55:03 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 17:55:07 [INFO]: Scrolling through results...
+2025-10-28 17:55:14 [INFO]: Scroll attempt 1/5
+2025-10-28 17:55:22 [INFO]: Scroll attempt 2/5
+2025-10-28 17:55:30 [INFO]: Scroll attempt 3/5
+2025-10-28 17:55:39 [INFO]: Scroll attempt 4/5
+2025-10-28 17:55:47 [INFO]: Scroll attempt 5/5
+2025-10-28 17:55:49 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 17:55:50 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 17:55:50 [INFO]: Found 60 businesses in the list
+2025-10-28 17:55:50 [INFO]: Processing business 1/60
+2025-10-28 17:55:55 [INFO]: ✓ Extracted: Finz Business Solutions
+2025-10-28 17:55:56 [INFO]: Processing business 2/60
+2025-10-28 17:56:00 [INFO]: ✓ Extracted: SmappAnalytics
+2025-10-28 17:56:02 [INFO]: Processing business 3/60
+2025-10-28 17:56:05 [INFO]: ✓ Extracted: Sresta Technologies
+2025-10-28 17:56:07 [INFO]: Processing business 4/60
+2025-10-28 17:56:10 [INFO]: ✓ Extracted: Business Intellects
+2025-10-28 17:56:12 [INFO]: Processing business 5/60
+2025-10-28 17:56:17 [INFO]: ✓ Extracted: ThoughtWare Training Pvt Ltd(ExxpertSCM, ThoughtWare Analytics)
+2025-10-28 17:56:18 [INFO]: Processing business 6/60
+2025-10-28 17:56:22 [INFO]: ✓ Extracted: Kaira Technologies
+2025-10-28 17:56:23 [INFO]: Processing business 7/60
+2025-10-28 17:56:26 [INFO]: ✓ Extracted: Commercial and Business Aviation Services Pvt Ltd
+2025-10-28 17:56:28 [INFO]: Processing business 8/60
+2025-10-28 17:56:31 [INFO]: ✓ Extracted: WSP Consultants India Pvt. Ltd.
+2025-10-28 17:56:33 [INFO]: Processing business 9/60
+2025-10-28 17:56:37 [INFO]: ✓ Extracted: Context India
+2025-10-28 17:56:39 [INFO]: Processing business 10/60
+2025-10-28 17:56:44 [INFO]: ✓ Extracted: VJM Global
+2025-10-28 17:56:45 [INFO]: Processing business 11/60
+2025-10-28 17:56:50 [INFO]: ✓ Extracted: Countix Solutions Private Limited
+2025-10-28 17:56:51 [INFO]: Processing business 12/60
+2025-10-28 17:56:56 [INFO]: ✓ Extracted: Affordable Business Solutions (ABS)
+2025-10-28 17:56:58 [INFO]: Processing business 13/60
+2025-10-28 17:57:01 [INFO]: ✓ Extracted: Support Corporate Consulting
+2025-10-28 17:57:03 [INFO]: Processing business 14/60
+2025-10-28 17:57:06 [INFO]: ✓ Extracted: AK & Co. Auditor and Tax Consultant
+2025-10-28 17:57:08 [INFO]: Processing business 15/60
+2025-10-28 17:57:13 [INFO]: ✓ Extracted: Bizcon Services- Management Consulting Company in Bangalore
+2025-10-28 17:57:15 [INFO]: Processing business 16/60
+2025-10-28 17:57:19 [INFO]: ✓ Extracted: Empower Business
+2025-10-28 17:57:20 [INFO]: Processing business 17/60
+2025-10-28 17:57:24 [INFO]: ✓ Extracted: Saikripa Techno Services
+2025-10-28 17:57:26 [INFO]: Processing business 18/60
+2025-10-28 17:57:31 [INFO]: ✓ Extracted: TPI Advisory Services India Pvt. Ltd.(Subsidiary Of ISG)
+2025-10-28 17:57:32 [INFO]: Processing business 19/60
+2025-10-28 17:57:35 [INFO]: ✓ Extracted: TALENT GROUP no1 business networks..
+2025-10-28 17:57:36 [INFO]: Processing business 20/60
+2025-10-28 17:57:40 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 17:57:41 [INFO]: Processing business 21/60
+2025-10-28 17:57:45 [INFO]: ✓ Extracted: AR Groups
+2025-10-28 17:57:47 [INFO]: Processing business 22/60
+2025-10-28 17:57:52 [INFO]: ✓ Extracted: Accencis Business Solutions LLP
+2025-10-28 17:57:53 [INFO]: Processing business 23/60
+2025-10-28 17:57:57 [INFO]: ✓ Extracted: SSG Business Services Pvt Ltd.
+2025-10-28 17:57:59 [INFO]: Processing business 24/60
+2025-10-28 17:58:03 [INFO]: ✓ Extracted: BVPRGJ CONSULTANTS
+2025-10-28 17:58:04 [INFO]: Processing business 25/60
+2025-10-28 17:58:09 [INFO]: ✓ Extracted: Synod Bioscience
+2025-10-28 17:58:11 [INFO]: Processing business 26/60
+2025-10-28 17:58:15 [INFO]: ✓ Extracted: AIBN (Apna International Business Network)
+2025-10-28 17:58:16 [INFO]: Processing business 27/60
+2025-10-28 17:58:20 [INFO]: ✓ Extracted: Esskay (Engineering Center)
+2025-10-28 17:58:22 [INFO]: Processing business 28/60
+2025-10-28 17:58:26 [INFO]: ✓ Extracted: 5N Business Consultants
+2025-10-28 17:58:28 [INFO]: Processing business 29/60
+2025-10-28 17:58:33 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 17:58:34 [INFO]: Processing business 30/60
+2025-10-28 17:58:38 [INFO]: ✓ Extracted: HBR Business Solutions
+2025-10-28 17:58:39 [INFO]: Processing business 31/60
+2025-10-28 17:58:44 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 17:58:46 [INFO]: Processing business 32/60
+2025-10-28 17:58:49 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 17:58:50 [INFO]: Processing business 33/60
+2025-10-28 17:58:54 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 17:58:56 [INFO]: Processing business 34/60
+2025-10-28 17:59:01 [INFO]: ✓ Extracted: RECTOQ software solutions
+2025-10-28 17:59:03 [INFO]: Processing business 35/60
+2025-10-28 17:59:07 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 17:59:08 [INFO]: Processing business 36/60
+2025-10-28 17:59:13 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:59:15 [INFO]: Processing business 37/60
+2025-10-28 17:59:18 [INFO]: ✓ Extracted: Apex Fund Services LLP (Bengaluru)
+2025-10-28 17:59:20 [INFO]: Processing business 38/60
+2025-10-28 17:59:24 [INFO]: ✓ Extracted: ECO CONSULTANTS
+2025-10-28 17:59:25 [INFO]: Processing business 39/60
+2025-10-28 17:59:28 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:59:29 [INFO]: Processing business 40/60
+2025-10-28 17:59:34 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 17:59:36 [INFO]: Processing business 41/60
+2025-10-28 17:59:39 [INFO]: ✓ Extracted: Indiastartup
+2025-10-28 17:59:41 [INFO]: Processing business 42/60
+2025-10-28 17:59:44 [INFO]: ✓ Extracted: R A M AND ASSOCIATES., Chartered Accountants
+2025-10-28 17:59:46 [INFO]: Processing business 43/60
+2025-10-28 17:59:49 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 17:59:51 [INFO]: Processing business 44/60
+2025-10-28 17:59:54 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 17:59:56 [INFO]: Processing business 45/60
+2025-10-28 18:00:00 [INFO]: Triggered: Sheets sync job
+2025-10-28 18:00:00 [INFO]: === Starting Google Sheets sync ===
+2025-10-28 18:00:00 [INFO]: Syncing leads to Google Sheets...
+2025-10-28 18:00:00 [ERROR]: TypeError: Cannot read properties of null (reading 'prepare')
+    at SheetsManager.syncLeads (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/integrations/sheetsManager.js:58:23)
+    at SheetsManager.fullSync (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/integrations/sheetsManager.js:168:16)
+    at AutomationApp.runSheetsSync (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:59:32)
+    at cron.schedule.timezone [as _execution] (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:113:18)
+    at Task.execute (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\node-cron\src\task.js:17:25)
+    at ScheduledTask.now (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\node-cron\src\scheduled-task.js:38:33)
+    at Scheduler.<anonymous> (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\node-cron\src\scheduled-task.js:25:18)
+    at Scheduler.emit (node:events:519:28)
+    at Timeout.matchTime [as _onTimeout] (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\node-cron\src\scheduler.js:30:26)
+    at listOnTimeout (node:internal/timers:588:17)
+2025-10-28 18:00:00 [INFO]: Syncing metrics to Google Sheets...
+2025-10-28 18:00:00 [ERROR]: TypeError: Cannot read properties of null (reading 'prepare')
+    at SheetsManager.syncMetrics (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/integrations/sheetsManager.js:123:23)
+    at SheetsManager.fullSync (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/integrations/sheetsManager.js:169:16)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at listOnTimeout (node:internal/timers:549:9)
+    at process.processTimers (node:internal/timers:523:7)
+    at async AutomationApp.runSheetsSync (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:59:7)
+    at async cron.schedule.timezone [as _execution] (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/index.js:113:7)
+2025-10-28 18:00:00 [INFO]: Sheets sync completed
+2025-10-28 18:00:00 [INFO]: Health check:
+2025-10-28 18:00:00 [INFO]: ✓ Extracted: 8moretales: Business Automation & AI
+2025-10-28 18:00:02 [INFO]: Processing business 46/60
+2025-10-28 18:00:06 [INFO]: ✓ Extracted: MS IT & Business Services
+2025-10-28 18:00:08 [INFO]: Processing business 47/60
+2025-10-28 18:00:13 [INFO]: ✓ Extracted: iPowerAutomation
+2025-10-28 18:00:15 [INFO]: Processing business 48/60
+2025-10-28 18:00:18 [INFO]: ✓ Extracted: Busness Setup Pvt Ltd
+2025-10-28 18:00:19 [INFO]: Processing business 49/60
+2025-10-28 18:00:23 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 18:00:24 [INFO]: Processing business 50/60
+2025-10-28 18:00:28 [INFO]: ✓ Extracted: RB Associates - Advocates and Tax Masters
+2025-10-28 18:00:30 [INFO]: Processing business 51/60
+2025-10-28 18:00:34 [INFO]: ✓ Extracted: R K Associates
+2025-10-28 18:00:36 [INFO]: Processing business 52/60
+2025-10-28 18:00:40 [INFO]: ✓ Extracted: 10X Architectural Auxiliary Services Private Limited
+2025-10-28 18:00:42 [INFO]: Processing business 53/60
+2025-10-28 18:00:46 [INFO]: ✓ Extracted: Acer Mall - Exclusive Store
+2025-10-28 18:00:48 [INFO]: Processing business 54/60
+2025-10-28 18:00:52 [INFO]: ✓ Extracted: K K Raj & Co. Chartered Accountants
+2025-10-28 18:00:53 [INFO]: Processing business 55/60
+2025-10-28 18:00:58 [INFO]: ✓ Extracted: Startup Company Registration
+2025-10-28 18:01:00 [INFO]: Processing business 56/60
+2025-10-28 18:01:04 [INFO]: ✓ Extracted: ET Business Consulting
+2025-10-28 18:01:05 [INFO]: Processing business 57/60
+2025-10-28 18:01:09 [INFO]: ✓ Extracted: Franchise Bazar - Best Franchise Consultants In Bangalore Since 1998
+2025-10-28 18:01:11 [INFO]: Processing business 58/60
+2025-10-28 18:01:15 [INFO]: ✓ Extracted: Alfa Compliance Consulting Services
+2025-10-28 18:01:16 [INFO]: Processing business 59/60
+2025-10-28 18:01:20 [INFO]: ✓ Extracted: MGB Bengaluru
+2025-10-28 18:01:21 [INFO]: Processing business 60/60
+2025-10-28 18:01:25 [INFO]: ✓ Extracted: Common Tech Solutions
+2025-10-28 18:01:26 [INFO]: Successfully extracted 60 out of 60 businesses
+2025-10-28 18:01:26 [INFO]: Returning 10 businesses
+2025-10-28 18:01:26 [INFO]: Browser closed
+2025-10-28 18:01:26 [INFO]: Processing 10 businesses...
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [ERROR]: Insert business error:
+2025-10-28 18:01:26 [INFO]: Processed 10 businesses, 0 qualified leads
+2025-10-28 18:01:26 [INFO]: Manual scraping completed: 10 businesses processed
+2025-10-28 18:04:48 [INFO]: ========================================
+2025-10-28 18:04:48 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 18:04:48 [INFO]: ========================================
+2025-10-28 18:04:48 [INFO]: Environment: production
+2025-10-28 18:04:48 [INFO]: Location: Bangalore, India
+2025-10-28 18:04:48 [INFO]: Search Query: businesses near me
+2025-10-28 18:04:48 [INFO]: ========================================
+2025-10-28 18:04:48 [INFO]: Database initialized successfully
+2025-10-28 18:04:48 [INFO]: Database ready
+2025-10-28 18:04:48 [INFO]: Health check:
+2025-10-28 18:04:48 [INFO]: Google Sheets integration initialized
+2025-10-28 18:04:48 [INFO]: Setting up scheduled jobs...
+2025-10-28 18:04:48 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 18:04:48 [INFO]: Scheduled health check: every hour
+2025-10-28 18:04:48 [INFO]: Application started successfully
+2025-10-28 18:04:48 [INFO]: Waiting for scheduled jobs...
+2025-10-28 18:04:48 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 18:06:15 [INFO]: ========================================
+2025-10-28 18:06:15 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 18:06:15 [INFO]: ========================================
+2025-10-28 18:06:15 [INFO]: Environment: production
+2025-10-28 18:06:15 [INFO]: Location: Bangalore, India
+2025-10-28 18:06:15 [INFO]: Search Query: businesses near me
+2025-10-28 18:06:15 [INFO]: ========================================
+2025-10-28 18:06:15 [INFO]: Database initialized successfully
+2025-10-28 18:06:15 [INFO]: Database ready
+2025-10-28 18:06:15 [INFO]: Health check:
+2025-10-28 18:06:15 [INFO]: Google Sheets integration initialized
+2025-10-28 18:06:15 [INFO]: Setting up scheduled jobs...
+2025-10-28 18:06:15 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 18:06:15 [INFO]: Scheduled health check: every hour
+2025-10-28 18:06:15 [INFO]: Application started successfully
+2025-10-28 18:06:15 [INFO]: Waiting for scheduled jobs...
+2025-10-28 18:06:15 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 18:06:22 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 18:06:22 [INFO]: Using real Google Maps scraping
+2025-10-28 18:06:22 [INFO]: Launching browser with anti-detection...
+2025-10-28 18:06:24 [INFO]: Browser initialized with stealth mode
+2025-10-28 18:06:24 [INFO]: First visiting Google Maps homepage...
+2025-10-28 18:06:34 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 18:06:41 [INFO]: Search submitted
+2025-10-28 18:06:41 [INFO]: Waiting for results to load...
+2025-10-28 18:06:49 [INFO]: Results panel loaded successfully
+2025-10-28 18:06:50 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 18:06:54 [INFO]: Scrolling through results...
+2025-10-28 18:07:00 [INFO]: Scroll attempt 1/5
+2025-10-28 18:07:06 [INFO]: Scroll attempt 2/5
+2025-10-28 18:07:16 [INFO]: Scroll attempt 3/5
+2025-10-28 18:07:23 [INFO]: Scroll attempt 4/5
+2025-10-28 18:07:30 [INFO]: Scroll attempt 5/5
+2025-10-28 18:07:32 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 18:07:33 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 18:07:33 [INFO]: Found 60 businesses in the list
+2025-10-28 18:07:33 [INFO]: Processing business 1/60
+2025-10-28 18:07:36 [INFO]: ✓ Extracted: Finz Business Solutions
+2025-10-28 18:07:37 [INFO]: Processing business 2/60
+2025-10-28 18:07:42 [INFO]: ✓ Extracted: SmappAnalytics
+2025-10-28 18:07:43 [INFO]: Processing business 3/60
+2025-10-28 18:07:47 [INFO]: ✓ Extracted: Sresta Technologies
+2025-10-28 18:07:49 [INFO]: Processing business 4/60
+2025-10-28 18:07:54 [INFO]: ✓ Extracted: ThoughtWare Training Pvt Ltd(ExxpertSCM, ThoughtWare Analytics)
+2025-10-28 18:07:55 [INFO]: Processing business 5/60
+2025-10-28 18:08:00 [INFO]: ✓ Extracted: Kaira Technologies
+2025-10-28 18:08:02 [INFO]: Processing business 6/60
+2025-10-28 18:08:05 [INFO]: ✓ Extracted: Commercial and Business Aviation Services Pvt Ltd
+2025-10-28 18:08:06 [INFO]: Processing business 7/60
+2025-10-28 18:08:10 [INFO]: ✓ Extracted: Context India
+2025-10-28 18:08:11 [INFO]: Processing business 8/60
+2025-10-28 18:08:15 [INFO]: ✓ Extracted: Business Intellects
+2025-10-28 18:08:17 [INFO]: Processing business 9/60
+2025-10-28 18:08:22 [INFO]: ✓ Extracted: VJM Global
+2025-10-28 18:08:23 [INFO]: Processing business 10/60
+2025-10-28 18:08:28 [INFO]: ✓ Extracted: Countix Solutions Private Limited
+2025-10-28 18:08:30 [INFO]: Processing business 11/60
+2025-10-28 18:08:34 [INFO]: ✓ Extracted: WSP Consultants India Pvt. Ltd.
+2025-10-28 18:08:35 [INFO]: Processing business 12/60
+2025-10-28 18:08:40 [INFO]: ✓ Extracted: Support Corporate Consulting
+2025-10-28 18:08:41 [INFO]: Processing business 13/60
+2025-10-28 18:08:46 [INFO]: ✓ Extracted: AK & Co. Auditor and Tax Consultant
+2025-10-28 18:08:48 [INFO]: Processing business 14/60
+2025-10-28 18:08:51 [INFO]: ✓ Extracted: Empower Business
+2025-10-28 18:08:52 [INFO]: Processing business 15/60
+2025-10-28 18:08:57 [INFO]: ✓ Extracted: TPI Advisory Services India Pvt. Ltd.(Subsidiary Of ISG)
+2025-10-28 18:08:59 [INFO]: Processing business 16/60
+2025-10-28 18:09:03 [INFO]: ✓ Extracted: TALENT GROUP no1 business networks..
+2025-10-28 18:09:04 [INFO]: Processing business 17/60
+2025-10-28 18:09:08 [INFO]: ✓ Extracted: Affordable Business Solutions (ABS)
+2025-10-28 18:09:10 [INFO]: Processing business 18/60
+2025-10-28 18:09:14 [INFO]: ✓ Extracted: AR Groups
+2025-10-28 18:09:15 [INFO]: Processing business 19/60
+2025-10-28 18:09:19 [INFO]: ✓ Extracted: Bizcon Services- Management Consulting Company in Bangalore
+2025-10-28 18:09:21 [INFO]: Processing business 20/60
+2025-10-28 18:09:24 [INFO]: ✓ Extracted: SSG Business Services Pvt Ltd.
+2025-10-28 18:09:26 [INFO]: Processing business 21/60
+2025-10-28 18:09:29 [INFO]: ✓ Extracted: Synod Bioscience
+2025-10-28 18:09:30 [INFO]: Processing business 22/60
+2025-10-28 18:09:33 [INFO]: ✓ Extracted: AIBN (Apna International Business Network)
+2025-10-28 18:09:35 [INFO]: Processing business 23/60
+2025-10-28 18:09:39 [INFO]: ✓ Extracted: Esskay (Engineering Center)
+2025-10-28 18:09:40 [INFO]: Processing business 24/60
+2025-10-28 18:09:45 [INFO]: ✓ Extracted: HBR Business Solutions
+2025-10-28 18:09:46 [INFO]: Processing business 25/60
+2025-10-28 18:09:49 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 18:09:51 [INFO]: Processing business 26/60
+2025-10-28 18:09:54 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 18:09:56 [INFO]: Processing business 27/60
+2025-10-28 18:10:00 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 18:10:01 [INFO]: Processing business 28/60
+2025-10-28 18:10:05 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 18:10:07 [INFO]: Processing business 29/60
+2025-10-28 18:10:10 [INFO]: ✓ Extracted: RECTOQ software solutions
+2025-10-28 18:10:12 [INFO]: Processing business 30/60
+2025-10-28 18:10:17 [WARN]: Failed to extract data for business 30
+2025-10-28 18:10:18 [INFO]: Processing business 31/60
+2025-10-28 18:10:23 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 18:10:24 [INFO]: Processing business 32/60
+2025-10-28 18:10:29 [INFO]: ✓ Extracted: Saikripa Techno Services
+2025-10-28 18:10:31 [INFO]: Processing business 33/60
+2025-10-28 18:10:35 [INFO]: ✓ Extracted: Accencis Business Solutions LLP
+2025-10-28 18:10:37 [INFO]: Processing business 34/60
+2025-10-28 18:10:42 [INFO]: ✓ Extracted: Daksh Business Solutions
+2025-10-28 18:10:43 [INFO]: Processing business 35/60
+2025-10-28 18:10:48 [INFO]: ✓ Extracted: ECO CONSULTANTS
+2025-10-28 18:10:50 [INFO]: Processing business 36/60
+2025-10-28 18:10:53 [INFO]: ✓ Extracted: BVPRGJ CONSULTANTS
+2025-10-28 18:10:54 [INFO]: Processing business 37/60
+2025-10-28 18:10:58 [INFO]: ✓ Extracted: Sourcetal Hiretech Pvt.Ltd
+2025-10-28 18:11:00 [INFO]: Processing business 38/60
+2025-10-28 18:11:04 [INFO]: ✓ Extracted: R A M AND ASSOCIATES., Chartered Accountants
+2025-10-28 18:11:06 [INFO]: Processing business 39/60
+2025-10-28 18:42:38 [INFO]: ========================================
+2025-10-28 18:42:38 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 18:42:38 [INFO]: ========================================
+2025-10-28 18:42:38 [INFO]: Environment: development
+2025-10-28 18:42:38 [INFO]: Location: Bangalore, India
+2025-10-28 18:42:38 [INFO]: Search Query: businesses near me
+2025-10-28 18:42:38 [INFO]: ========================================
+2025-10-28 18:42:38 [INFO]: Database initialized successfully
+2025-10-28 18:42:38 [INFO]: Database ready
+2025-10-28 18:42:38 [INFO]: Health check:
+2025-10-28 18:42:38 [INFO]: Google Sheets integration initialized
+2025-10-28 18:42:38 [INFO]: Setting up scheduled jobs...
+2025-10-28 18:42:38 [INFO]: Scheduled sheets sync: 0 */6 * * *
+2025-10-28 18:42:38 [INFO]: Scheduled health check: every hour
+2025-10-28 18:42:38 [INFO]: Application started successfully
+2025-10-28 18:42:38 [INFO]: Waiting for scheduled jobs...
+2025-10-28 18:42:38 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 18:44:36 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 18:44:36 [INFO]: Using real Google Maps scraping
+2025-10-28 18:44:36 [INFO]: Launching browser with anti-detection...
+2025-10-28 18:44:38 [INFO]: Browser initialized with stealth mode
+2025-10-28 18:44:38 [INFO]: First visiting Google Maps homepage...
+2025-10-28 18:44:47 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 18:44:55 [INFO]: Search submitted
+2025-10-28 18:44:55 [INFO]: Waiting for results to load...
+2025-10-28 18:45:07 [INFO]: Results panel loaded successfully
+2025-10-28 18:45:07 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 18:45:10 [INFO]: Scrolling through results...
+2025-10-28 18:45:17 [INFO]: Scroll attempt 1/5
+2025-10-28 18:45:25 [INFO]: Scroll attempt 2/5
+2025-10-28 18:45:33 [INFO]: Scroll attempt 3/5
+2025-10-28 18:45:42 [INFO]: Scroll attempt 4/5
+2025-10-28 18:45:49 [INFO]: Scroll attempt 5/5
+2025-10-28 18:45:52 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 18:45:52 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 18:45:52 [INFO]: Found 60 businesses in the list
+2025-10-28 18:45:52 [INFO]: Processing business 1/60
+2025-10-28 18:45:56 [INFO]: ✓ Extracted: TiE Bangalore
+2025-10-28 18:45:57 [INFO]: Processing business 2/60
+2025-10-28 18:46:02 [INFO]: ✓ Extracted: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 18:46:03 [INFO]: Processing business 3/60
+2025-10-28 18:46:07 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 18:46:09 [INFO]: Processing business 4/60
+2025-10-28 18:46:12 [INFO]: ✓ Extracted: Business Consultancy - Bengaluru
+2025-10-28 18:46:13 [INFO]: Processing business 5/60
+2025-10-28 18:46:17 [INFO]: ✓ Extracted: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 18:46:19 [INFO]: Processing business 6/60
+2025-10-28 18:46:22 [INFO]: ✓ Extracted: ETEA BUSINESS SOLUTIONS PRIVATE LIMITED
+2025-10-28 18:46:24 [INFO]: Processing business 7/60
+2025-10-28 18:46:27 [INFO]: ✓ Extracted: Chanakya Business Management Solutions
+2025-10-28 18:46:29 [INFO]: Processing business 8/60
+2025-10-28 18:46:32 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 18:46:34 [INFO]: Processing business 9/60
+2025-10-28 18:46:37 [INFO]: ✓ Extracted: BUSINESS FACTOR
+2025-10-28 18:46:39 [INFO]: Processing business 10/60
+2025-10-28 18:46:43 [INFO]: ✓ Extracted: D2S Business Consulting Private Limited
+2025-10-28 18:46:44 [INFO]: Processing business 11/60
+2025-10-28 18:46:49 [INFO]: ✓ Extracted: Bangalore Locals
+2025-10-28 18:46:51 [INFO]: Processing business 12/60
+2025-10-28 18:46:54 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 18:46:56 [INFO]: Processing business 13/60
+2025-10-28 18:47:01 [INFO]: ✓ Extracted: Zybisys
+2025-10-28 18:47:02 [INFO]: Processing business 14/60
+2025-10-28 18:47:05 [INFO]: ✓ Extracted: Franchise Bazar - Best Franchise Consultants In Bangalore Since 1998
+2025-10-28 18:47:07 [INFO]: Processing business 15/60
+2025-10-28 18:47:11 [INFO]: ✓ Extracted: Writer Business services pvt Ltd B
+2025-10-28 18:47:12 [INFO]: Processing business 16/60
+2025-10-28 18:47:17 [INFO]: ✓ Extracted: Scardo Groups India
+2025-10-28 18:47:18 [INFO]: Processing business 17/60
+2025-10-28 18:47:21 [INFO]: ✓ Extracted: GLOBAL BUSINESS INC
+2025-10-28 18:47:23 [INFO]: Processing business 18/60
+2025-10-28 18:47:28 [INFO]: ✓ Extracted: R K Bhat & Co., Company Secretaries
+2025-10-28 18:47:29 [INFO]: Processing business 19/60
+2025-10-28 18:47:32 [INFO]: ✓ Extracted: ArchLynk India Private Limited
+2025-10-28 18:47:34 [INFO]: Processing business 20/60
+2025-10-28 18:47:37 [INFO]: ✓ Extracted: Torry Harris Business Solutions Pvt Ltd
+2025-10-28 18:47:38 [INFO]: Processing business 21/60
+2025-10-28 18:47:42 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 18:47:44 [INFO]: Processing business 22/60
+2025-10-28 18:47:47 [INFO]: ✓ Extracted: AVG Corporate Consultants
+2025-10-28 18:47:49 [INFO]: Processing business 23/60
+2025-10-28 18:47:53 [INFO]: ✓ Extracted: ZERO ONE SYSTEMS CORP.
+2025-10-28 18:47:55 [INFO]: Processing business 24/60
+2025-10-28 18:47:59 [INFO]: ✓ Extracted: Īksha Legal
+2025-10-28 18:48:00 [INFO]: Processing business 25/60
+2025-10-28 18:48:05 [INFO]: ✓ Extracted: CREDITTECHNO - CIBIL Repair Agency | Commercial Credit Rank | Credit Score Improvement Agency | Free CIBIL Consultant
+2025-10-28 18:48:06 [INFO]: Processing business 26/60
+2025-10-28 18:48:10 [INFO]: ✓ Extracted: TLM Digital
+2025-10-28 18:48:12 [INFO]: Processing business 27/60
+2025-10-28 18:48:16 [INFO]: ✓ Extracted: REDHILL SOFTEC | Internships - Final Year IEEE Projects for BE BTECH BCA MCA Students | Bangalore
+2025-10-28 18:48:17 [INFO]: Processing business 28/60
+2025-10-28 18:48:21 [INFO]: ✓ Extracted: Winsple
+2025-10-28 18:48:22 [INFO]: Processing business 29/60
+2025-10-28 18:48:27 [INFO]: ✓ Extracted: Civilsoft structural consultants and trainers
+2025-10-28 18:48:29 [INFO]: Processing business 30/60
+2025-10-28 18:48:34 [INFO]: ✓ Extracted: Vee Technologies
+2025-10-28 18:48:35 [INFO]: Processing business 31/60
+2025-10-28 18:48:39 [INFO]: ✓ Extracted: Processautometa
+2025-10-28 18:48:40 [INFO]: Processing business 32/60
+2025-10-28 18:48:45 [INFO]: ✓ Extracted: POOJA ENTERPRISES fuse cutout
+2025-10-28 18:48:46 [INFO]: Processing business 33/60
+2025-10-28 18:48:51 [INFO]: ✓ Extracted: Nexocean Labs Private Limited
+2025-10-28 18:48:53 [INFO]: Processing business 34/60
+2025-10-28 18:48:56 [INFO]: ✓ Extracted: Web Digital Mantra IT Services
+2025-10-28 18:48:58 [INFO]: Processing business 35/60
+2025-10-28 18:49:02 [INFO]: ✓ Extracted: Movers (India) Private Ltd
+2025-10-28 18:49:04 [INFO]: Processing business 36/60
+2025-10-28 18:49:07 [INFO]: ✓ Extracted: Auditor - Anand & Associates
+2025-10-28 18:49:09 [INFO]: Processing business 37/60
+2025-10-28 18:49:13 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 18:49:15 [INFO]: Processing business 38/60
+2025-10-28 18:49:19 [INFO]: ✓ Extracted: Pratik T & Associates
+2025-10-28 18:49:21 [INFO]: Processing business 39/60
+2025-10-28 18:49:25 [INFO]: ✓ Extracted: Ravikeerthi & Associates, Company Secretaries.
+2025-10-28 18:49:26 [INFO]: Processing business 40/60
+2025-10-28 18:49:31 [INFO]: ✓ Extracted: Valufocus Corporate Services Pvt Ltd
+2025-10-28 18:49:32 [INFO]: Processing business 41/60
+2025-10-28 18:49:37 [INFO]: ✓ Extracted: REDHILL SOFTEC | Internships - Final Year IEEE Projects for BE BTECH BCA MCA Students | Bangalore
+2025-10-28 18:49:39 [INFO]: Processing business 42/60
+2025-10-28 18:49:43 [INFO]: ✓ Extracted: ChennaiBangalore.Com
+2025-10-28 18:49:45 [INFO]: Processing business 43/60
+2025-10-28 18:49:48 [INFO]: ✓ Extracted: Winsple
+2025-10-28 18:49:50 [INFO]: Processing business 44/60
+2025-10-28 18:49:55 [INFO]: ✓ Extracted: Civilsoft structural consultants and trainers
+2025-10-28 18:49:56 [INFO]: Processing business 45/60
+2025-10-28 18:50:00 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:01 [INFO]: Processing business 46/60
+2025-10-28 18:50:05 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:06 [INFO]: Processing business 47/60
+2025-10-28 18:50:11 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:12 [INFO]: Processing business 48/60
+2025-10-28 18:50:16 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:17 [INFO]: Processing business 49/60
+2025-10-28 18:50:21 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:23 [INFO]: Processing business 50/60
+2025-10-28 18:50:28 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:30 [INFO]: Processing business 51/60
+2025-10-28 18:50:33 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:35 [INFO]: Processing business 52/60
+2025-10-28 18:50:40 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:42 [INFO]: Processing business 53/60
+2025-10-28 18:50:46 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:48 [INFO]: Processing business 54/60
+2025-10-28 18:50:53 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:54 [INFO]: Processing business 55/60
+2025-10-28 18:50:58 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:50:59 [INFO]: Processing business 56/60
+2025-10-28 18:51:04 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:51:05 [INFO]: Processing business 57/60
+2025-10-28 18:51:10 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:51:11 [INFO]: Processing business 58/60
+2025-10-28 18:51:15 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:51:16 [INFO]: Processing business 59/60
+2025-10-28 18:51:20 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:51:21 [INFO]: Processing business 60/60
+2025-10-28 18:51:25 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 18:51:26 [INFO]: Successfully extracted 60 out of 60 businesses
+2025-10-28 18:51:26 [INFO]: Returning 10 businesses
+2025-10-28 18:51:27 [INFO]: Browser closed
+2025-10-28 18:51:27 [INFO]: Processing 10 businesses...
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: TiE Bangalore
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: TiE Bangalore
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: TiE Bangalore
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for TiE Bangalore: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for FranTiger Business Consulting Pvt. Ltd.: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: BADA BUSINESS -Bengaluru Office
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: BADA BUSINESS -Bengaluru Office
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: BADA BUSINESS -Bengaluru Office
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for BADA BUSINESS -Bengaluru Office: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: Business Consultancy - Bengaluru
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: Business Consultancy - Bengaluru
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: Business Consultancy - Bengaluru
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for Business Consultancy - Bengaluru: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for Company Registration in Bangalore - Companyregistrations.co.in: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: ETEA BUSINESS SOLUTIONS PRIVATE LIMITED
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: ETEA BUSINESS SOLUTIONS PRIVATE LIMITED
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: ETEA BUSINESS SOLUTIONS PRIVATE LIMITED
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for ETEA BUSINESS SOLUTIONS PRIVATE LIMITED: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: Chanakya Business Management Solutions
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: Chanakya Business Management Solutions
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: Chanakya Business Management Solutions
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for Chanakya Business Management Solutions: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: BUSINESS FACTOR
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: BUSINESS FACTOR
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: BUSINESS FACTOR
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for BUSINESS FACTOR: changes=0
+2025-10-28 18:51:27 [INFO]: [DEBUG] Processing: D2S Business Consulting Private Limited
+2025-10-28 18:51:27 [INFO]: [DEBUG] Passed filter: D2S Business Consulting Private Limited
+2025-10-28 18:51:27 [INFO]: [DEBUG] Inserting: D2S Business Consulting Private Limited
+2025-10-28 18:51:27 [ERROR]: Insert business error:
+2025-10-28 18:51:27 [INFO]: [DEBUG] Insert result for D2S Business Consulting Private Limited: changes=0
+2025-10-28 18:51:27 [INFO]: Processed 10 businesses, 0 qualified leads
+2025-10-28 18:51:27 [INFO]: Manual scraping completed: 10 businesses processed
+2025-10-28 19:00:00 [INFO]: Health check:
+2025-10-28 19:21:24 [INFO]: ========================================
+2025-10-28 19:21:24 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 19:21:24 [INFO]: ========================================
+2025-10-28 19:21:24 [INFO]: Environment: production
+2025-10-28 19:21:24 [INFO]: Location: Bangalore, India
+2025-10-28 19:21:24 [INFO]: Search Query: businesses near me
+2025-10-28 19:21:24 [INFO]: ========================================
+2025-10-28 19:21:24 [INFO]: MySQL connection pool created successfully
+2025-10-28 19:21:24 [INFO]: Database schema initialized successfully
+2025-10-28 19:21:24 [INFO]: Database ready
+2025-10-28 19:21:24 [INFO]: Health check:
+2025-10-28 19:21:24 [INFO]: Setting up scheduled jobs...
+2025-10-28 19:21:24 [INFO]: Scheduled health check: every hour
+2025-10-28 19:21:24 [INFO]: Application started successfully
+2025-10-28 19:21:24 [INFO]: Waiting for scheduled jobs...
+2025-10-28 19:21:24 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 19:22:29 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 19:22:29 [INFO]: Using real Google Maps scraping
+2025-10-28 19:22:29 [INFO]: Launching browser with anti-detection...
+2025-10-28 19:22:30 [INFO]: Browser initialized with stealth mode
+2025-10-28 19:22:30 [INFO]: First visiting Google Maps homepage...
+2025-10-28 19:22:42 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 19:22:49 [INFO]: Search submitted
+2025-10-28 19:22:49 [INFO]: Waiting for results to load...
+2025-10-28 19:22:58 [INFO]: Results panel loaded successfully
+2025-10-28 19:22:59 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 19:23:02 [INFO]: Scrolling through results...
+2025-10-28 19:23:08 [INFO]: Scroll attempt 1/5
+2025-10-28 19:23:17 [INFO]: Scroll attempt 2/5
+2025-10-28 19:23:21 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 19:23:21 [INFO]: Using real Google Maps scraping
+2025-10-28 19:23:21 [INFO]: Launching browser with anti-detection...
+2025-10-28 19:23:22 [INFO]: Browser initialized with stealth mode
+2025-10-28 19:23:22 [INFO]: First visiting Google Maps homepage...
+2025-10-28 19:23:26 [INFO]: Scroll attempt 3/5
+2025-10-28 19:23:33 [INFO]: Scroll attempt 4/5
+2025-10-28 19:23:36 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 19:23:41 [INFO]: Reached end of results
+2025-10-28 19:23:43 [INFO]: Search submitted
+2025-10-28 19:23:43 [INFO]: Waiting for results to load...
+2025-10-28 19:23:44 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 19:23:45 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 19:23:45 [INFO]: Found 0 businesses in the list
+2025-10-28 19:23:45 [WARN]: No business cards found in the sidebar!
+2025-10-28 19:23:45 [WARN]: No businesses found. Saving page HTML for debugging...
+2025-10-28 19:23:45 [INFO]: Page HTML saved to logs/page-content.html
+2025-10-28 19:23:45 [INFO]: Returning 0 businesses
+2025-10-28 19:23:45 [INFO]: Browser closed
+2025-10-28 19:23:45 [INFO]: Processing 0 businesses...
+2025-10-28 19:23:45 [INFO]: Processed 0 businesses, 0 qualified leads
+2025-10-28 19:23:45 [INFO]: Manual scraping completed: 0 businesses processed
+2025-10-28 19:23:52 [WARN]: Results panel not found with role=feed, trying alternative selectors
+2025-10-28 19:23:52 [WARN]: Alternative selector also failed, will try to extract anyway
+2025-10-28 19:23:52 [ERROR]: TargetCloseError: Protocol error (Input.dispatchMouseEvent): Session closed. Most likely the page has been closed.
+    at CdpCDPSession.send (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:64:35)
+    at C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:277:37
+    at #withTransaction (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:238:19)
+    at CdpMouse.move (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:269:40)
+    at GoogleMapsScraper.searchBusinesses (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/scrapers/googleMapsScraper.js:153:29)
+    at async GoogleMapsScraper.scrape (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/scrapers/googleMapsScraper.js:442:7)
+    at async DashboardServer.runScraping (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/server/dashboardServer.js:196:20)
+2025-10-28 19:23:52 [ERROR]: TargetCloseError: Protocol error (Input.dispatchMouseEvent): Session closed. Most likely the page has been closed.
+    at CdpCDPSession.send (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:64:35)
+    at C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:277:37
+    at #withTransaction (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:238:19)
+    at CdpMouse.move (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:269:40)
+    at GoogleMapsScraper.searchBusinesses (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/scrapers/googleMapsScraper.js:153:29)
+    at async GoogleMapsScraper.scrape (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/scrapers/googleMapsScraper.js:442:7)
+    at async DashboardServer.runScraping (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/server/dashboardServer.js:196:20)
+2025-10-28 19:23:52 [INFO]: Browser closed
+2025-10-28 19:23:52 [ERROR]: TargetCloseError: Protocol error (Input.dispatchMouseEvent): Session closed. Most likely the page has been closed.
+    at CdpCDPSession.send (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\CDPSession.js:64:35)
+    at C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:277:37
+    at #withTransaction (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:238:19)
+    at CdpMouse.move (C:\Users\PrajwalVenkatesh\Desktop\automation\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Input.js:269:40)
+    at GoogleMapsScraper.searchBusinesses (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/scrapers/googleMapsScraper.js:153:29)
+    at async GoogleMapsScraper.scrape (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/scrapers/googleMapsScraper.js:442:7)
+    at async DashboardServer.runScraping (file:///C:/Users/PrajwalVenkatesh/Desktop/automation/src/server/dashboardServer.js:196:20)
+2025-10-28 19:30:08 [INFO]: ========================================
+2025-10-28 19:30:08 [INFO]: Business Scraper & Outreach Automation
+2025-10-28 19:30:08 [INFO]: ========================================
+2025-10-28 19:30:08 [INFO]: Environment: production
+2025-10-28 19:30:08 [INFO]: Location: Bangalore, India
+2025-10-28 19:30:08 [INFO]: Search Query: businesses near me
+2025-10-28 19:30:08 [INFO]: ========================================
+2025-10-28 19:30:08 [INFO]: MySQL connection pool created successfully
+2025-10-28 19:30:08 [INFO]: Database schema initialized successfully
+2025-10-28 19:30:08 [INFO]: Database ready
+2025-10-28 19:30:08 [INFO]: Health check:
+2025-10-28 19:30:08 [INFO]: Setting up scheduled jobs...
+2025-10-28 19:30:08 [INFO]: Scheduled health check: every hour
+2025-10-28 19:30:08 [INFO]: Application started successfully
+2025-10-28 19:30:08 [INFO]: Waiting for scheduled jobs...
+2025-10-28 19:30:08 [INFO]: Dashboard server running on http://localhost:3000
+2025-10-28 19:30:46 [INFO]: Manual scraping triggered via dashboard (test data: false)
+2025-10-28 19:30:46 [INFO]: Using real Google Maps scraping
+2025-10-28 19:30:46 [INFO]: Launching browser with anti-detection...
+2025-10-28 19:30:48 [INFO]: Browser initialized with stealth mode
+2025-10-28 19:30:48 [INFO]: First visiting Google Maps homepage...
+2025-10-28 19:31:00 [INFO]: Searching for: businesses near me in Bangalore, India
+2025-10-28 19:31:08 [INFO]: Search submitted
+2025-10-28 19:31:08 [INFO]: Waiting for results to load...
+2025-10-28 19:31:19 [INFO]: Results panel loaded successfully
+2025-10-28 19:31:20 [INFO]: Search loaded, ready to extract businesses
+2025-10-28 19:31:23 [INFO]: Scrolling through results...
+2025-10-28 19:31:30 [INFO]: Scroll attempt 1/5
+2025-10-28 19:31:37 [INFO]: Scroll attempt 2/5
+2025-10-28 19:31:44 [INFO]: Scroll attempt 3/5
+2025-10-28 19:31:51 [INFO]: Scroll attempt 4/5
+2025-10-28 19:32:01 [INFO]: Scroll attempt 5/5
+2025-10-28 19:32:03 [INFO]: Extracting business data by clicking on each one...
+2025-10-28 19:32:04 [INFO]: Screenshot saved to logs/scraping-debug.png
+2025-10-28 19:32:04 [INFO]: Found 60 businesses in the list
+2025-10-28 19:32:04 [INFO]: Processing business 1/60
+2025-10-28 19:32:07 [INFO]: ✓ Extracted: TiE Bangalore
+2025-10-28 19:32:08 [INFO]: Processing business 2/60
+2025-10-28 19:32:13 [INFO]: ✓ Extracted: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 19:32:15 [INFO]: Processing business 3/60
+2025-10-28 19:32:19 [INFO]: ✓ Extracted: BADA BUSINESS -Bengaluru Office
+2025-10-28 19:32:21 [INFO]: Processing business 4/60
+2025-10-28 19:32:25 [INFO]: ✓ Extracted: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 19:32:26 [INFO]: Processing business 5/60
+2025-10-28 19:32:31 [INFO]: ✓ Extracted: Chanakya Business Management Solutions
+2025-10-28 19:32:33 [INFO]: Processing business 6/60
+2025-10-28 19:32:36 [INFO]: ✓ Extracted: Business Consultancy - Bengaluru
+2025-10-28 19:32:38 [INFO]: Processing business 7/60
+2025-10-28 19:32:42 [INFO]: ✓ Extracted: D2S Business Consulting Private Limited
+2025-10-28 19:32:44 [INFO]: Processing business 8/60
+2025-10-28 19:32:47 [INFO]: ✓ Extracted: Bangalore Locals
+2025-10-28 19:32:49 [INFO]: Processing business 9/60
+2025-10-28 19:32:52 [INFO]: ✓ Extracted: Chakshu Business Consulting
+2025-10-28 19:32:53 [INFO]: Processing business 10/60
+2025-10-28 19:32:56 [INFO]: ✓ Extracted: Zybisys
+2025-10-28 19:32:58 [INFO]: Processing business 11/60
+2025-10-28 19:33:02 [INFO]: ✓ Extracted: ETEA BUSINESS SOLUTIONS PRIVATE LIMITED
+2025-10-28 19:33:03 [INFO]: Processing business 12/60
+2025-10-28 19:33:07 [INFO]: ✓ Extracted: Franchise Bazar - Best Franchise Consultants In Bangalore Since 1998
+2025-10-28 19:33:08 [INFO]: Processing business 13/60
+2025-10-28 19:33:12 [INFO]: ✓ Extracted: Writer Business services pvt Ltd B
+2025-10-28 19:33:13 [INFO]: Processing business 14/60
+2025-10-28 19:33:17 [INFO]: ✓ Extracted: Techorilla India Pvt Ltd - Design | Digital | Branding | Marketing | Software Agency in India
+2025-10-28 19:33:19 [INFO]: Processing business 15/60
+2025-10-28 19:33:23 [INFO]: ✓ Extracted: BUSINESS FACTOR
+2025-10-28 19:33:25 [INFO]: Processing business 16/60
+2025-10-28 19:33:30 [INFO]: ✓ Extracted: Scardo Groups India
+2025-10-28 19:33:31 [INFO]: Processing business 17/60
+2025-10-28 19:33:35 [INFO]: ✓ Extracted: GLOBAL BUSINESS INC
+2025-10-28 19:33:36 [INFO]: Processing business 18/60
+2025-10-28 19:33:40 [INFO]: ✓ Extracted: R K Bhat & Co., Company Secretaries
+2025-10-28 19:33:42 [INFO]: Processing business 19/60
+2025-10-28 19:33:47 [INFO]: ✓ Extracted: ArchLynk India Private Limited
+2025-10-28 19:33:48 [INFO]: Processing business 20/60
+2025-10-28 19:33:52 [INFO]: ✓ Extracted: Torry Harris Business Solutions Pvt Ltd
+2025-10-28 19:33:54 [INFO]: Processing business 21/60
+2025-10-28 19:33:59 [INFO]: ✓ Extracted: Klaus IT Solutions Pvt Ltd
+2025-10-28 19:34:01 [INFO]: Processing business 22/60
+2025-10-28 19:34:06 [INFO]: ✓ Extracted: Manage Any Business
+2025-10-28 19:34:07 [INFO]: Processing business 23/60
+2025-10-28 19:34:12 [INFO]: ✓ Extracted: Mage Marketer
+2025-10-28 19:34:14 [INFO]: Processing business 24/60
+2025-10-28 19:34:17 [INFO]: ✓ Extracted: At-Work
+2025-10-28 19:34:18 [INFO]: Processing business 25/60
+2025-10-28 19:34:21 [INFO]: ✓ Extracted: MAGIX TECHSOL INDIA PRIVATE LIMITED
+2025-10-28 19:34:23 [INFO]: Processing business 26/60
+2025-10-28 19:34:27 [INFO]: ✓ Extracted: Best Franchise Consultants India | Top Franchise Consulting Firm Company In India
+2025-10-28 19:34:28 [INFO]: Processing business 27/60
+2025-10-28 19:34:33 [INFO]: ✓ Extracted: Business World - AI Sales Digital Marketing Ecommerce Business Technology Services
+2025-10-28 19:34:34 [INFO]: Processing business 28/60
+2025-10-28 19:34:39 [INFO]: ✓ Extracted: Bharani Group
+2025-10-28 19:34:40 [INFO]: Processing business 29/60
+2025-10-28 19:34:45 [INFO]: ✓ Extracted: O9 SOLUTIONS, INC.
+2025-10-28 19:34:46 [INFO]: Processing business 30/60
+2025-10-28 19:34:51 [INFO]: ✓ Extracted: Bodhi Professional Solutions Private Limited
+2025-10-28 19:34:52 [INFO]: Processing business 31/60
+2025-10-28 19:34:57 [INFO]: ✓ Extracted: Brandstory Solutions Pvt.Ltd
+2025-10-28 19:34:58 [INFO]: Processing business 32/60
+2025-10-28 19:35:02 [INFO]: ✓ Extracted: Bangalore Web Guru
+2025-10-28 19:35:03 [INFO]: Processing business 33/60
+2025-10-28 19:35:07 [INFO]: ✓ Extracted: AVG Corporate Consultants
+2025-10-28 19:35:09 [INFO]: Processing business 34/60
+2025-10-28 19:35:13 [INFO]: ✓ Extracted: ZERO ONE SYSTEMS CORP.
+2025-10-28 19:35:14 [INFO]: Processing business 35/60
+2025-10-28 19:35:19 [INFO]: ✓ Extracted: ChennaiBangalore.Com
+2025-10-28 19:35:20 [INFO]: Processing business 36/60
+2025-10-28 19:35:24 [INFO]: ✓ Extracted: Winsple
+2025-10-28 19:35:26 [INFO]: Processing business 37/60
+2025-10-28 19:35:31 [INFO]: ✓ Extracted: Civilsoft structural consultants and trainers
+2025-10-28 19:35:33 [INFO]: Processing business 38/60
+2025-10-28 19:35:36 [INFO]: ✓ Extracted: BTM LAYOUT Online Business Directory
+2025-10-28 19:35:38 [INFO]: Processing business 39/60
+2025-10-28 19:35:42 [INFO]: ✓ Extracted: Advent Business Consulting
+2025-10-28 19:35:44 [INFO]: Processing business 40/60
+2025-10-28 19:35:49 [INFO]: ✓ Extracted: Vee Technologies
+2025-10-28 19:35:50 [INFO]: Processing business 41/60
+2025-10-28 19:35:54 [INFO]: ✓ Extracted: Processautometa
+2025-10-28 19:35:56 [INFO]: Processing business 42/60
+2025-10-28 19:36:00 [INFO]: ✓ Extracted: Corporate Business Consultants
+2025-10-28 19:36:01 [INFO]: Processing business 43/60
+2025-10-28 19:36:04 [INFO]: ✓ Extracted: Tech minds
+2025-10-28 19:36:06 [INFO]: Processing business 44/60
+2025-10-28 19:36:10 [INFO]: ✓ Extracted: Nexocean Labs Private Limited
+2025-10-28 19:36:11 [INFO]: Processing business 45/60
+2025-10-28 19:36:15 [INFO]: ✓ Extracted: Web Digital Mantra IT Services
+2025-10-28 19:36:17 [INFO]: Processing business 46/60
+2025-10-28 19:36:20 [INFO]: ✓ Extracted: Movers (India) Private Ltd
+2025-10-28 19:36:22 [INFO]: Processing business 47/60
+2025-10-28 19:36:26 [INFO]: ✓ Extracted: Sri Mookambika Catering Services
+2025-10-28 19:36:28 [INFO]: Processing business 48/60
+2025-10-28 19:36:31 [INFO]: ✓ Extracted: Īksha Legal
+2025-10-28 19:36:33 [INFO]: Processing business 49/60
+2025-10-28 19:36:37 [INFO]: ✓ Extracted: GRV & PK Chartered Accountants
+2025-10-28 19:36:39 [INFO]: Processing business 50/60
+2025-10-28 19:36:43 [INFO]: ✓ Extracted: Ravikeerthi & Associates, Company Secretaries.
+2025-10-28 19:36:45 [INFO]: Processing business 51/60
+2025-10-28 19:36:48 [INFO]: ✓ Extracted: IntaGlio Technical and Business Service
+2025-10-28 19:36:50 [INFO]: Processing business 52/60
+2025-10-28 19:36:53 [INFO]: ✓ Extracted: Timeline HR
+2025-10-28 19:36:55 [INFO]: Processing business 53/60
+2025-10-28 19:37:00 [INFO]: ✓ Extracted: Joshi Law Chambers
+2025-10-28 19:37:02 [INFO]: Processing business 54/60
+2025-10-28 19:37:06 [INFO]: ✓ Extracted: iCert Global Learning Pvt Ltd
+2025-10-28 19:37:07 [INFO]: Processing business 55/60
+2025-10-28 19:37:12 [INFO]: ✓ Extracted: Pratik T & Associates
+2025-10-28 19:37:13 [INFO]: Processing business 56/60
+2025-10-28 19:37:18 [INFO]: ✓ Extracted: Bada Business Pvt. Ltd. (North_Bangalore)
+2025-10-28 19:37:19 [INFO]: Processing business 57/60
+2025-10-28 19:37:24 [INFO]: ✓ Extracted: BrandingArea
+2025-10-28 19:37:26 [INFO]: Processing business 58/60
+2025-10-28 19:37:30 [INFO]: ✓ Extracted: REDHILL SOFTEC | Internships - Final Year IEEE Projects for BE BTECH BCA MCA Students | Bangalore
+2025-10-28 19:37:32 [INFO]: Processing business 59/60
+2025-10-28 19:37:36 [INFO]: ✓ Extracted: Arka Advisors
+2025-10-28 19:37:38 [INFO]: Processing business 60/60
+2025-10-28 19:37:42 [INFO]: ✓ Extracted: Mendes & Lobo Associates
+2025-10-28 19:37:43 [INFO]: Successfully extracted 60 out of 60 businesses
+2025-10-28 19:37:43 [INFO]: Returning 10 businesses
+2025-10-28 19:37:44 [INFO]: Browser closed
+2025-10-28 19:37:44 [INFO]: Processing 10 businesses...
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: TiE Bangalore
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: TiE Bangalore
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: TiE Bangalore
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for TiE Bangalore: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: TiE Bangalore (Score: 50)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: FranTiger Business Consulting Pvt. Ltd.
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for FranTiger Business Consulting Pvt. Ltd.: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: FranTiger Business Consulting Pvt. Ltd. (Score: 50)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: BADA BUSINESS -Bengaluru Office
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: BADA BUSINESS -Bengaluru Office
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: BADA BUSINESS -Bengaluru Office
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for BADA BUSINESS -Bengaluru Office: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: BADA BUSINESS -Bengaluru Office (Score: 55)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: Company Registration in Bangalore - Companyregistrations.co.in
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for Company Registration in Bangalore - Companyregistrations.co.in: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: Company Registration in Bangalore - Companyregistrations.co.in (Score: 35)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: Chanakya Business Management Solutions
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: Chanakya Business Management Solutions
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: Chanakya Business Management Solutions
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for Chanakya Business Management Solutions: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: Chanakya Business Management Solutions (Score: 65)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: Business Consultancy - Bengaluru
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: Business Consultancy - Bengaluru
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: Business Consultancy - Bengaluru
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for Business Consultancy - Bengaluru: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: Business Consultancy - Bengaluru (Score: 55)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: D2S Business Consulting Private Limited
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: D2S Business Consulting Private Limited
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: D2S Business Consulting Private Limited
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for D2S Business Consulting Private Limited: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: D2S Business Consulting Private Limited (Score: 55)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: Bangalore Locals
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: Bangalore Locals
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: Bangalore Locals
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for Bangalore Locals: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: Bangalore Locals (Score: 85)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: Chakshu Business Consulting
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: Chakshu Business Consulting
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: Chakshu Business Consulting
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for Chakshu Business Consulting: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: Chakshu Business Consulting (Score: 55)
+2025-10-28 19:37:44 [INFO]: [DEBUG] Processing: Zybisys
+2025-10-28 19:37:44 [INFO]: [DEBUG] Passed filter: Zybisys
+2025-10-28 19:37:44 [INFO]: [DEBUG] Inserting: Zybisys
+2025-10-28 19:37:44 [INFO]: [DEBUG] Insert result for Zybisys: changes=1
+2025-10-28 19:37:44 [INFO]: Qualified lead: Zybisys (Score: 55)
+2025-10-28 19:37:44 [INFO]: Processed 10 businesses, 10 qualified leads
+2025-10-28 19:37:44 [INFO]: Manual scraping completed: 10 businesses processed

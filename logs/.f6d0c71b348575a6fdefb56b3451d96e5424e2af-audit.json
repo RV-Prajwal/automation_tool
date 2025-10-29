@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "C:\\Users\\PrajwalVenkatesh\\Desktop\\automation\\logs\\.f6d0c71b348575a6fdefb56b3451d96e5424e2af-audit.json",
+    "files": [
+        {
+            "date": 1761649046674,
+            "name": "C:\\Users\\PrajwalVenkatesh\\Desktop\\automation\\logs\\error-2025-10-28.log",
+            "hash": "aeecc9429366c90136af383a734f155f5d6fa427db5e827bca50c06a8d01baf9"
+        },
+        {
+            "date": 1761724525844,
+            "name": "C:\\Users\\PrajwalVenkatesh\\Desktop\\automation\\logs\\error-2025-10-29.log",
+            "hash": "f89cdc64422d83cffa0a221187683d58d070b2de4d8586e13bd711d138678e93"
+        }
+    ],
+    "hashType": "sha256"
+}
