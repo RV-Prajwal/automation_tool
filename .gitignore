@@ -54,6 +54,9 @@ checkSchema.js
 exports/
 *.csv
 
-# Build
-dist/
+# Build (allow dashboard/dist)
 build/
+
+# Exclude dist except dashboard
+dist/
+!dashboard/dist/

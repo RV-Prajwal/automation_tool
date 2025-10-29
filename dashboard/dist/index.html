@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Scraper Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-out;
+        }
+        .pulse-animation {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-2xl font-bold text-gray-800">🎯 Business Scraper Dashboard</h1>
+                    <p class="text-sm text-gray-600">Automated Lead Generation & Outreach</p>
+                </div>
+                <div class="flex space-x-3">
+                    <button onclick="triggerScraping()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
+                        🔍 Run Scraping
+                    </button>
+                    <button onclick="generateTestData()" class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition">
+                        🧪 Test Data
+                    </button>
+                    <button onclick="triggerEmailCampaign()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition">
+                        📧 Send Emails
+                    </button>
+                    <button onclick="downloadSmsListCsv()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">
+                        📱 Download SMS List
+                    </button>
+                    <button onclick="stopScraping()" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition">
+                        ⏹️ Stop Scraping
+                    </button>
+                    <button onclick="refreshData()" class="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition">
+                        🔄 Refresh
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8">
+        
+        <!-- Stats Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <!-- Total Businesses -->
+            <div class="bg-white rounded-lg shadow-md p-6 fade-in">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm font-medium">Total Businesses</p>
+                        <p class="text-3xl font-bold text-gray-800 mt-1" id="totalBusinesses">0</p>
+                    </div>
+                    <div class="bg-blue-100 rounded-full p-3">
+                        <span class="text-2xl">🏢</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qualified Leads -->
+            <div class="bg-white rounded-lg shadow-md p-6 fade-in">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm font-medium">Qualified Leads</p>
+                        <p class="text-3xl font-bold text-green-600 mt-1" id="qualifiedLeads">0</p>
+                    </div>
+                    <div class="bg-green-100 rounded-full p-3">
+                        <span class="text-2xl">✅</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emails Sent Today -->
+            <div class="bg-white rounded-lg shadow-md p-6 fade-in">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm font-medium">Emails Sent Today</p>
+                        <p class="text-3xl font-bold text-purple-600 mt-1" id="emailsSentToday">0</p>
+                    </div>
+                    <div class="bg-purple-100 rounded-full p-3">
+                        <span class="text-2xl">📨</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conversions -->
+            <div class="bg-white rounded-lg shadow-md p-6 fade-in">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm font-medium">Conversions</p>
+                        <p class="text-3xl font-bold text-orange-600 mt-1" id="conversions">0</p>
+                    </div>
+                    <div class="bg-orange-100 rounded-full p-3">
+                        <span class="text-2xl">💰</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            <!-- Activity Chart -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">📊 Activity Overview (Last 7 Days)</h3>
+                <canvas id="activityChart"></canvas>
+            </div>
+
+            <!-- Status Breakdown -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">📈 Lead Status</h3>
+                <div class="space-y-4">
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-700">New Leads</span>
+                            <span class="text-sm font-medium text-gray-700" id="newLeads">0</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-blue-600 h-2 rounded-full" id="newLeadsBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-700">Contacted</span>
+                            <span class="text-sm font-medium text-gray-700" id="contacted">0</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-yellow-500 h-2 rounded-full" id="contactedBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-sm font-medium text-gray-700">Converted</span>
+                            <span class="text-sm font-medium text-gray-700" id="converted">0</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-green-600 h-2 rounded-full" id="convertedBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Leads Table -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4">📋 Recent Qualified Leads</h3>
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Business Name</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Category</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Rating</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Priority</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leadsTable" class="bg-white divide-y divide-gray-200">
+                        <!-- Populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-lg p-8 text-center">
+            <div class="pulse-animation text-4xl mb-4">⏳</div>
+            <p class="text-lg font-semibold text-gray-800">Processing...</p>
+        </div>
+    </div>
+
+    <script>
+        let activityChart = null;
+
+        // Fetch and display dashboard data
+        async function fetchDashboardData() {
+            try {
+                // Fetch stats
+                const statsRes = await fetch('/api/stats');
+                const statsData = await statsRes.json();
+                
+                if (statsData.success) {
+                    const { data } = statsData;
+                    
+                    // Update stats cards
+                    document.getElementById('totalBusinesses').textContent = data.total_businesses || 0;
+                    document.getElementById('qualifiedLeads').textContent = data.without_website || 0;
+                    document.getElementById('emailsSentToday').textContent = data.emails_sent_today || 0;
+                    document.getElementById('conversions').textContent = data.converted || 0;
+                    
+                    // Update status breakdown
+                    const total = data.total_businesses || 1;
+                    document.getElementById('newLeads').textContent = data.new_leads || 0;
+                    document.getElementById('contacted').textContent = data.contacted || 0;
+                    document.getElementById('converted').textContent = data.converted || 0;
+                    
+                    document.getElementById('newLeadsBar').style.width = `${(data.new_leads / total) * 100}%`;
+                    document.getElementById('contactedBar').style.width = `${(data.contacted / total) * 100}%`;
+                    document.getElementById('convertedBar').style.width = `${(data.converted / total) * 100}%`;
+                }
+                
+                // Fetch leads
+                const leadsRes = await fetch('/api/leads?limit=10');
+                const leadsData = await leadsRes.json();
+                
+                if (leadsData.success) {
+                    displayLeads(leadsData.data);
+                }
+                
+                // Fetch metrics
+                const metricsRes = await fetch('/api/metrics?days=7');
+                const metricsData = await metricsRes.json();
+                
+                if (metricsData.success) {
+                    displayChart(metricsData.data);
+                }
+            } catch (error) {
+                console.error('Error fetching dashboard data:', error);
+            }
+        }
+
+        // Display leads in table
+        function displayLeads(leads) {
+            const tbody = document.getElementById('leadsTable');
+            tbody.innerHTML = '';
+            
+            if (!leads || leads.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" class="px-6 py-4 text-center text-gray-500">No leads found</td></tr>';
+                return;
+            }
+            
+            leads.forEach(lead => {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-gray-50';
+                row.innerHTML = `
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="text-sm font-medium text-gray-900">${lead.name || 'N/A'}</div>
+                        <div class="text-sm text-gray-500">${lead.address || ''}</div>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${lead.category || 'N/A'}</td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="text-sm text-gray-900">⭐ ${lead.rating || 'N/A'}</span>
+                        <span class="text-xs text-gray-500">(${lead.review_count || 0})</span>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${getPriorityColor(lead.priority_score)}">
+                            ${lead.priority_score || 0}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${getStatusColor(lead.status)}">
+                            ${lead.status || 'new'}
+                        </span>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Display activity chart
+        function displayChart(metrics) {
+            const ctx = document.getElementById('activityChart').getContext('2d');
+            
+            if (activityChart) {
+                activityChart.destroy();
+            }
+            
+            const labels = metrics.map(m => m.date).reverse();
+            const scraped = metrics.map(m => m.businesses_scraped || 0).reverse();
+            const qualified = metrics.map(m => m.leads_qualified || 0).reverse();
+            const emails = metrics.map(m => m.emails_sent || 0).reverse();
+            
+            activityChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Businesses Scraped',
+                            data: scraped,
+                            borderColor: 'rgb(59, 130, 246)',
+                            backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Leads Qualified',
+                            data: qualified,
+                            borderColor: 'rgb(34, 197, 94)',
+                            backgroundColor: 'rgba(34, 197, 94, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Emails Sent',
+                            data: emails,
+                            borderColor: 'rgb(168, 85, 247)',
+                            backgroundColor: 'rgba(168, 85, 247, 0.1)',
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // Helper functions
+        function getPriorityColor(score) {
+            if (score >= 70) return 'bg-green-100 text-green-800';
+            if (score >= 40) return 'bg-yellow-100 text-yellow-800';
+            return 'bg-gray-100 text-gray-800';
+        }
+
+        function getStatusColor(status) {
+            const colors = {
+                'new': 'bg-blue-100 text-blue-800',
+                'contacted': 'bg-yellow-100 text-yellow-800',
+                'converted': 'bg-green-100 text-green-800'
+            };
+            return colors[status] || 'bg-gray-100 text-gray-800';
+        }
+
+        // Action buttons
+        async function generateTestData() {
+            if (!confirm('Generate 20 test businesses? This is for demo purposes.')) return;
+            
+            document.getElementById('loadingOverlay').classList.remove('hidden');
+            
+            try {
+                const res = await fetch('/api/generate-test-data', { 
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ count: 20 })
+                });
+                const data = await res.json();
+                
+                if (data.success) {
+                    alert('✅ Generated 20 test businesses! Refreshing dashboard...');
+                    setTimeout(() => location.reload(), 1000);
+                } else {
+                    alert('❌ Error: ' + data.error);
+                }
+            } catch (error) {
+                alert('❌ Error: ' + error.message);
+            } finally {
+                document.getElementById('loadingOverlay').classList.add('hidden');
+            }
+        }
+        
+        async function triggerScraping() {
+            if (!confirm('Start REAL scraping job? This will search Google Maps for businesses.\n\nNote: May get 0 results due to Google anti-bot protection.\n\nUse "Test Data" button to see the system working.')) return;
+            
+            document.getElementById('loadingOverlay').classList.remove('hidden');
+            
+            try {
+                const res = await fetch('/api/scrape', { method: 'POST' });
+                const data = await res.json();
+                
+                if (data.success) {
+                    alert('✅ Scraping job started! Refresh in a few minutes to see results.');
+                } else {
+                    alert('❌ Error: ' + data.error);
+                }
+            } catch (error) {
+                alert('❌ Error: ' + error.message);
+            } finally {
+                document.getElementById('loadingOverlay').classList.add('hidden');
+            }
+        }
+
+        async function triggerEmailCampaign() {
+            if (!confirm('Start email campaign? This will send emails to qualified leads.')) return;
+            
+            document.getElementById('loadingOverlay').classList.remove('hidden');
+            
+            try {
+                const res = await fetch('/api/email-campaign', { method: 'POST' });
+                const data = await res.json();
+                
+                if (data.success) {
+                    alert('✅ Email campaign started! Check logs for details.');
+                } else {
+                    alert('❌ Error: ' + data.error);
+                }
+            } catch (error) {
+                alert('❌ Error: ' + error.message);
+            } finally {
+                document.getElementById('loadingOverlay').classList.add('hidden');
+            }
+        }
+
+        async function downloadSmsListCsv() {
+            try {
+                const res = await fetch('/api/export-sms-list');
+                
+                if (!res.ok) {
+                    const data = await res.json();
+                    alert('❌ ' + (data.message || 'Error downloading SMS list'));
+                    return;
+                }
+                
+                const blob = await res.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'qualified-leads-sms.csv';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+                
+                alert('✅ SMS list downloaded! The CSV contains all qualified leads (businesses without websites).');
+            } catch (error) {
+                alert('❌ Error: ' + error.message);
+            }
+        }
+
+        async function stopScraping() {
+            if (!confirm('Stop the scraping process? It will stop after completing the current zone.')) return;
+            
+            try {
+                const res = await fetch('/api/stop-scrape', { method: 'POST' });
+                const data = await res.json();
+                
+                if (data.success) {
+                    alert('✅ Scraping will stop after current zone completes');
+                } else {
+                    alert('❌ Error: ' + data.error);
+                }
+            } catch (error) {
+                alert('❌ Error: ' + error.message);
+            }
+        }
+
+        function refreshData() {
+            location.reload();
+        }
+
+        // Initial load
+        fetchDashboardData();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(fetchDashboardData, 30000);
+    </script>
+</body>
+</html>
