@@ -1,0 +1,40 @@
+{
+  "name": "business-scraper-outreach",
+  "version": "1.0.0",
+  "description": "Automated Google Maps business scraper with email outreach system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:stop": "pm2 stop business-scraper",
+    "pm2:logs": "pm2 logs business-scraper",
+    "pm2:monit": "pm2 monit"
+  },
+  "keywords": [
+    "scraper",
+    "automation",
+    "outreach",
+    "google-maps"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.15.3",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.8",
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  }
+}
