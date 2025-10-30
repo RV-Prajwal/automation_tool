@@ -14,7 +14,7 @@ import BusinessProcessor from '../processors/businessProcessor.js';
 import OutreachManager from '../services/outreachManager.js';
 import ZoneManager from '../utils/zoneManager.js';
 import config from '../config/config.js';
-import { generateTestBusinesses } from '../utils/testDataGenerator.js';
+// Removed test data generator import
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -110,8 +110,8 @@ class DashboardServer {
         const scrapingMode = this.useZoneBasedScraping ? 'zone-based' : 'traditional';
         logger.info(`Manual scraping triggered via dashboard (mode: ${scrapingMode}, test data: ${useTestData})`);
         
-        // Run in background
-        this.runScraping(useTestData).catch(err => {
+    // Run in background
+        this.runScraping().catch(err => {
           logger.error('Background scraping failed:', err);
         });
         
@@ -142,45 +142,7 @@ class DashboardServer {
       }
     });
     
-    // Test data generation endpoint
-    this.app.post('/api/generate-test-data', async (req, res) => {
-      try {
-        const count = req.body?.count || 20;
-        logger.info(`Generating ${count} test businesses`);
-        
-        const businesses = generateTestBusinesses(count);
-        await this.processor.processBatch(businesses);
-        
-        res.json({
-          success: true,
-          message: `Generated and processed ${count} test businesses`,
-          data: { count }
-        });
-      } catch (error) {
-        logger.error('Test data generation error:', error);
-        res.status(500).json({ success: false, error: error.message });
-      }
-    });
-
-    // Test data generation endpoint
-    this.app.post('/api/generate-test-data', async (req, res) => {
-      try {
-        const count = req.body?.count || 20;
-        logger.info(`Generating ${count} test businesses`);
-        
-        const businesses = generateTestBusinesses(count);
-        await this.processor.processBatch(businesses);
-        
-        res.json({
-          success: true,
-          message: `Generated and processed ${count} test businesses`,
-          data: { count }
-        });
-      } catch (error) {
-        logger.error('Test data generation error:', error);
-        res.status(500).json({ success: false, error: error.message });
-      }
-    });
+    // Removed test data generation endpoints
     
     // Manual email campaign trigger
     this.app.post('/api/email-campaign', async (req, res) => {
@@ -345,16 +307,8 @@ class DashboardServer {
     });
   }
 
-  async runScraping(useTestData = false) {
+  async runScraping() {
     try {
-      if (useTestData) {
-        logger.info('Using test data instead of real scraping');
-        const businesses = generateTestBusinesses(20);
-        await this.processor.processBatch(businesses);
-        logger.info(`Test scraping completed: ${businesses.length} businesses processed`);
-        return;
-      }
-      
       if (this.useZoneBasedScraping) {
         logger.info('=== Starting continuous zone-based scraping ===');
         this.isScrapingActive = true;
